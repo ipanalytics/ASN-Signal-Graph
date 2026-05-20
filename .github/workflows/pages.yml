@@ -30,6 +30,7 @@ jobs:
         run: python3 scripts/build_signal_graph.py --sources config/sources.json --output-dir data/current
       - name: Validate site artifact
         run: |
+          test -s index.html
           test -s site/index.html
           test -s site/app.js
           test -s site/styles.css
