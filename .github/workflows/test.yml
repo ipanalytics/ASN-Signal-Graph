@@ -1,0 +1,63 @@
+name: Test
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile scripts
+        run: python3 -m py_compile scripts/build_signal_graph.py scripts/fetch_sources.py
+      - name: Build from committed snapshots
+        run: python3 scripts/build_signal_graph.py --sources config/sources.json --output-dir data/current
+      - name: Validate generated datasets
+        run: |
+          test -s data/current/asn-signals.csv
+          test -s data/current/hosting-signal-graph.jsonl
+          test -s data/current/dashboard-data.json
+          test -s data/current/source-index.json
+          test -s data/current/summary.json
+          test -s data/api/index.json
+          test -s data/api/asn/9009.json
+          test -s data/api/top/vpn.json
+          test -s data/api/top/tor.json
+          test -s data/api/top/drop_list.json
+          test ! -e data/api/top/crawler.json
+          test ! -e data/api/top/scanner.json
+      - name: Validate dashboard assets
+        run: |
+          test -s site/index.html
+          test -s site/app.js
+          test -s site/styles.css
+          python3 - <<'PY'
+          from pathlib import Path
+          checks = {
+              "old project name": ("README.md", "docs", "site", "scripts", "config"),
+              "removed UI labels": ("site",),
+          }
+          forbidden = {
+              "old project name": ["Infra" + "Signal"],
+              "removed UI labels": [">" + "Crawler<", ">" + "Scanner<", 'data-sort="' + "crawler" + '"', 'value="' + "scanner" + '"'],
+          }
+          for label, roots in checks.items():
+              for root in roots:
+                  paths = [Path(root)] if Path(root).is_file() else Path(root).rglob("*")
+                  for path in paths:
+                      if path.is_file() and path.suffix not in {".png", ".pyc"}:
+                          text = path.read_text(encoding="utf-8", errors="ignore")
+                          for needle in forbidden[label]:
+                              if needle in text:
+                                  raise SystemExit(f"{label}: {needle} in {path}")
+          PY
