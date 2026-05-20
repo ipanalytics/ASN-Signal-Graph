@@ -20,7 +20,9 @@ jobs:
           python-version: "3.12"
       - name: Compile scripts
         run: python3 -m py_compile scripts/build_signal_graph.py scripts/fetch_sources.py
-      - name: Build from committed snapshots
+      - name: Fetch upstream snapshots
+        run: python3 scripts/fetch_sources.py --sources config/sources.json
+      - name: Build current snapshot
         run: python3 scripts/build_signal_graph.py --sources config/sources.json --output-dir data/current
       - name: Validate generated datasets
         run: |
@@ -38,6 +40,7 @@ jobs:
           test ! -e data/api/top/scanner.json
       - name: Validate dashboard assets
         run: |
+          test -s index.html
           test -s site/index.html
           test -s site/app.js
           test -s site/styles.css
