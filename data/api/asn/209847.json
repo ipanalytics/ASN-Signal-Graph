@@ -1,0 +1,75 @@
+{
+  "asn": 209847,
+  "country": "MD",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 101,
+  "labels": [
+    "vpn-medium",
+    "tor-medium",
+    "drop_list-high",
+    "multi-source-overlap",
+    "mixed-signal-infrastructure"
+  ],
+  "org": "THE",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "medium",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "mixed-signal-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 125,
+    "signal_density": 125.0,
+    "source_count": 3,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "spamhaus-asndrop",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 1,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 0,
+    "tor_signals": 23,
+    "vpn_signals": 101
+  },
+  "signals": {
+    "drop_list": {
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "tor": {
+      "count": 23,
+      "level": "medium",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 101,
+      "level": "medium",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

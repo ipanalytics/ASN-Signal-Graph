@@ -1,0 +1,70 @@
+{
+  "asn": 36351,
+  "country": "US",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 4,
+  "labels": [
+    "vpn-low",
+    "vpn-overlap-infrastructure"
+  ],
+  "org": "SOFTLAYER",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "low",
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "vpn-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 5,
+    "signal_density": 5.0,
+    "source_count": 2,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "bad-cidrs-v4"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 0,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 1,
+    "tor_signals": 0,
+    "vpn_signals": 4
+  },
+  "signals": {
+    "drop_list": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "asn-vpn-multi-provider",
+        "bad-cidrs-v4"
+      ]
+    },
+    "tor": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "vpn": {
+      "count": 4,
+      "level": "low",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "asn": 14061,
+  "country": "US",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 189,
+  "labels": [
+    "vpn-medium",
+    "tor-high",
+    "multi-source-overlap",
+    "anonymity-overlap-infrastructure"
+  ],
+  "org": "DIGITALOCEAN-ASN",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "medium",
+    "hosting_type": "tor-heavy-hosting",
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 464,
+    "signal_density": 464.0,
+    "source_count": 3,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "bad-cidrs-v4",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 0,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 124,
+    "tor_signals": 151,
+    "vpn_signals": 189
+  },
+  "signals": {
+    "drop_list": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 124,
+      "level": "high",
+      "sources": [
+        "asn-vpn-multi-provider",
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    "tor": {
+      "count": 151,
+      "level": "high",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 189,
+      "level": "medium",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

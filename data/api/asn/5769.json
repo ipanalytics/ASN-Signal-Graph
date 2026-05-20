@@ -1,0 +1,70 @@
+{
+  "asn": 5769,
+  "country": "CA",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 0,
+  "labels": [
+    "tor-low",
+    "tor-overlap-infrastructure"
+  ],
+  "org": "Videotron Ltee",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "low",
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "tor-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 9,
+    "signal_density": 9.0,
+    "source_count": 2,
+    "sources": [
+      "bad-cidrs-v4",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 0,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 1,
+    "tor_signals": 8,
+    "vpn_signals": 0
+  },
+  "signals": {
+    "drop_list": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    "tor": {
+      "count": 8,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    }
+  }
+}

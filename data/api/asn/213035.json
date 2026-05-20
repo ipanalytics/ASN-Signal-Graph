@@ -1,0 +1,70 @@
+{
+  "asn": 213035,
+  "country": "NL",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 3,
+  "labels": [
+    "vpn-low",
+    "drop_list-high",
+    "vpn-overlap-infrastructure"
+  ],
+  "org": "AS-SERVERION Serverion B.V.",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "low",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "vpn-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 4,
+    "signal_density": 4.0,
+    "source_count": 2,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "spamhaus-asndrop"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 1,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 0,
+    "tor_signals": 0,
+    "vpn_signals": 3
+  },
+  "signals": {
+    "drop_list": {
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "tor": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "vpn": {
+      "count": 3,
+      "level": "low",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

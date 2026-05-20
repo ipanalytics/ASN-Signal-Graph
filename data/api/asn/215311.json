@@ -1,0 +1,70 @@
+{
+  "asn": 215311,
+  "country": "DE",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 0,
+  "labels": [
+    "tor-low",
+    "drop_list-high",
+    "tor-overlap-infrastructure"
+  ],
+  "org": "Regxa Company for Information Technology Ltd",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "low",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "tor-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 8,
+    "signal_density": 8.0,
+    "source_count": 2,
+    "sources": [
+      "spamhaus-asndrop",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 1,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 0,
+    "tor_signals": 7,
+    "vpn_signals": 0
+  },
+  "signals": {
+    "drop_list": {
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "tor": {
+      "count": 7,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    }
+  }
+}

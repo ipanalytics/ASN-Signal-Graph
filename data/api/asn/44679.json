@@ -1,0 +1,70 @@
+{
+  "asn": 44679,
+  "country": "RO",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 27,
+  "labels": [
+    "vpn-low",
+    "tor-low",
+    "anonymity-overlap-infrastructure"
+  ],
+  "org": "BINBOX-GLOBAL-SERVICES",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "low",
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 28,
+    "signal_density": 28.0,
+    "source_count": 2,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 0,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 0,
+    "tor_signals": 1,
+    "vpn_signals": 27
+  },
+  "signals": {
+    "drop_list": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "tor": {
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 27,
+      "level": "low",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

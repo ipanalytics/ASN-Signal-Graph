@@ -1,0 +1,76 @@
+{
+  "asn": 51396,
+  "country": "NL",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 0,
+  "labels": [
+    "tor-medium",
+    "drop_list-high",
+    "multi-source-overlap",
+    "tor-overlap-infrastructure"
+  ],
+  "org": "Pfcloud UG (haftungsbeschrankt)",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "medium",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "tor-overlap-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 28,
+    "signal_density": 28.0,
+    "source_count": 3,
+    "sources": [
+      "bad-cidrs-v4",
+      "spamhaus-asndrop",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 1,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 6,
+    "tor_signals": 21,
+    "vpn_signals": 0
+  },
+  "signals": {
+    "drop_list": {
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 6,
+      "level": "high",
+      "sources": [
+        "bad-cidrs-v4",
+        "spamhaus-asndrop",
+        "tor-radar-network"
+      ]
+    },
+    "tor": {
+      "count": 21,
+      "level": "medium",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    }
+  }
+}

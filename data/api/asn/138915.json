@@ -1,0 +1,75 @@
+{
+  "asn": 138915,
+  "country": "CN",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 19,
+  "labels": [
+    "vpn-low",
+    "tor-low",
+    "drop_list-high",
+    "multi-source-overlap",
+    "mixed-signal-infrastructure"
+  ],
+  "org": "KAOPU-HK Kaopu Cloud HK Limited",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "medium",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "mixed-signal-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 27,
+    "signal_density": 27.0,
+    "source_count": 3,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "spamhaus-asndrop",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 1,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 0,
+    "tor_signals": 7,
+    "vpn_signals": 19
+  },
+  "signals": {
+    "drop_list": {
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "tor": {
+      "count": 7,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 19,
+      "level": "low",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

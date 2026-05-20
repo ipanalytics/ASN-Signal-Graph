@@ -1,0 +1,76 @@
+{
+  "asn": 8075,
+  "country": "US",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 2,
+  "labels": [
+    "vpn-low",
+    "tor-low",
+    "multi-source-overlap",
+    "anonymity-overlap-infrastructure"
+  ],
+  "org": "MICROSOFT-CORP-MSN-AS-BLOCK",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "medium",
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 71,
+    "signal_density": 71.0,
+    "source_count": 3,
+    "sources": [
+      "asn-vpn-multi-provider",
+      "bad-cidrs-v4",
+      "tor-radar-network"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 0,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 62,
+    "tor_signals": 7,
+    "vpn_signals": 2
+  },
+  "signals": {
+    "drop_list": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 62,
+      "level": "high",
+      "sources": [
+        "asn-vpn-multi-provider",
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    "tor": {
+      "count": 7,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
+      "count": 2,
+      "level": "low",
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    }
+  }
+}

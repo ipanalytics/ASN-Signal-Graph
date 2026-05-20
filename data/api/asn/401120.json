@@ -1,0 +1,70 @@
+{
+  "asn": 401120,
+  "country": "US",
+  "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
+  "ip_count_estimate": 0,
+  "labels": [
+    "drop_list-high",
+    "public-feed-listed-infrastructure"
+  ],
+  "org": "CHEAPY-HOST",
+  "prefix_count": 0,
+  "profile": {
+    "confidence": "low",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "public-feed-listed-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 5,
+    "signal_density": 5.0,
+    "source_count": 2,
+    "sources": [
+      "bad-cidrs-v4",
+      "spamhaus-asndrop"
+    ]
+  },
+  "signal_counts": {
+    "drop_list_signals": 1,
+    "malware_signals": 0,
+    "phishing_signals": 0,
+    "public_feed_signals": 4,
+    "tor_signals": 0,
+    "vpn_signals": 0
+  },
+  "signals": {
+    "drop_list": {
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    "malware": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "phishing": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "public_feed": {
+      "count": 4,
+      "level": "medium",
+      "sources": [
+        "bad-cidrs-v4",
+        "spamhaus-asndrop"
+      ]
+    },
+    "tor": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    },
+    "vpn": {
+      "count": 0,
+      "level": "none",
+      "sources": []
+    }
+  }
+}
