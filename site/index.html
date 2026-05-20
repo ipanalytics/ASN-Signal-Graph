@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ASN Signal Graph</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <h1>ASN Signal Graph</h1>
+        <p>Public ASN infrastructure signal matrix</p>
+      </div>
+      <div class="summary-strip" id="summaryStrip"></div>
+    </header>
+
+    <main class="layout">
+      <aside class="controls">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="ASN or organization">
+        </label>
+
+        <label>
+          Signal
+          <select id="signalSelect">
+            <option value="all">All signals</option>
+            <option value="vpn">VPN</option>
+            <option value="tor">Tor</option>
+            <option value="drop_list">DROP</option>
+            <option value="public_feed">Public feed</option>
+          </select>
+        </label>
+
+        <label>
+          Level
+          <select id="levelSelect">
+            <option value="all">Any level</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </label>
+
+        <label>
+          Country
+          <select id="countrySelect">
+            <option value="all">All countries</option>
+          </select>
+        </label>
+
+        <label>
+          Minimum sources
+          <input id="sourceInput" type="number" min="1" value="1">
+        </label>
+
+        <label>
+          Minimum signals
+          <input id="signalInput" type="number" min="0" value="0">
+        </label>
+
+        <button id="resetButton" class="reset-button" type="button">Reset filters</button>
+
+        <section class="note">
+          Public feed means ASN overlap with public IP/CIDR lists. It is a context signal, not a provider verdict.
+        </section>
+      </aside>
+
+      <section class="content">
+        <div class="toolbar">
+          <div id="resultCount"></div>
+          <div class="view-tabs">
+            <button class="active" data-sort="signal_count">Total</button>
+            <button data-sort="vpn">VPN</button>
+            <button data-sort="tor">Tor</button>
+            <button data-sort="drop_list">DROP</button>
+            <button data-sort="public_feed">Public feed</button>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th><button class="sort-header" data-column="asn" type="button">ASN</button></th>
+                <th><button class="sort-header" data-column="org" type="button">Organization</button></th>
+                <th><button class="sort-header" data-column="country" type="button">Country</button></th>
+                <th><button class="sort-header" data-column="vpn" type="button">VPN</button></th>
+                <th><button class="sort-header" data-column="tor" type="button">Tor</button></th>
+                <th><button class="sort-header" data-column="drop_list" type="button">DROP</button></th>
+                <th><button class="sort-header" data-column="public_feed" type="button">Public feed</button></th>
+                <th><button class="sort-header" data-column="source_count" type="button">Sources</button></th>
+                <th><button class="sort-header" data-column="infrastructure_role" type="button">Profile</button></th>
+              </tr>
+            </thead>
+            <tbody id="matrixBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <aside class="detail" id="detailPanel">
+        <div class="empty-state">Select an ASN to inspect its signal profile.</div>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

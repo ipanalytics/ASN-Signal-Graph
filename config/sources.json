@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-05-20T00:00:00Z",
+  "sources": [
+    {
+      "id": "ip-knowledge-layer",
+      "name": "IP Knowledge Layer current enriched prefixes",
+      "category": "hosting_base",
+      "format": "ip_knowledge_csv",
+      "url": "https://raw.githubusercontent.com/ipanalytics/IP-Knowledge-Layer/main/data/current/ip-knowledge.csv",
+      "path": "data/raw/ipanalytics/ip-knowledge-layer/ip-knowledge.csv",
+      "enabled": true
+    },
+    {
+      "id": "asn-vpn-multi-provider",
+      "name": "ASN VPN Network Intelligence multi-provider ASN dataset",
+      "category": "vpn",
+      "format": "asn_vpn_multi_provider_csv",
+      "url": "https://raw.githubusercontent.com/ipanalytics/ASN-VPN-Network-Intelligence/main/asn_multi_provider.csv",
+      "path": "data/raw/ipanalytics/asn-vpn-network-intelligence/asn_multi_provider.csv",
+      "enabled": true
+    },
+    {
+      "id": "asn-vpn-prefixes",
+      "name": "ASN VPN Network Intelligence VPN CIDR ranges",
+      "category": "vpn",
+      "format": "cidr_csv",
+      "url": "https://raw.githubusercontent.com/ipanalytics/ASN-VPN-Network-Intelligence/main/vpn-ip.csv",
+      "path": "data/raw/ipanalytics/asn-vpn-network-intelligence/vpn-ip.csv",
+      "enabled": true
+    },
+    {
+      "id": "tor-radar-network",
+      "name": "Tor-Radar current network snapshot",
+      "category": "tor",
+      "format": "tor_radar_network_json",
+      "url": "https://raw.githubusercontent.com/ipanalytics/Tor-Radar/main/data/current/network.json",
+      "path": "data/raw/ipanalytics/tor-radar/network.json",
+      "enabled": true
+    },
+    {
+      "id": "spamhaus-asndrop",
+      "name": "Spamhaus ASNDROP from blackroute feed catalog",
+      "category": "drop_list",
+      "format": "spamhaus_asndrop_jsonl",
+      "url": "https://www.spamhaus.org/drop/asndrop.json",
+      "path": "data/raw/blackroute-feeds/spamhaus-asndrop.jsonl",
+      "enabled": true
+    },
+    {
+      "id": "stamparm-ipsum-level3",
+      "name": "stamparm ipsum level 3 public IP feed",
+      "category": "malware",
+      "format": "ip_textlist",
+      "url": "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt",
+      "path": "data/raw/public-abuse-feeds/stamparm-ipsum-level3.txt",
+      "enabled": true
+    },
+    {
+      "id": "stamparm-ipsum-level5",
+      "name": "stamparm ipsum level 5 high-confidence IP feed",
+      "category": "malware",
+      "format": "ip_textlist",
+      "url": "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt",
+      "path": "data/raw/public-abuse-feeds/stamparm-ipsum-level5.txt",
+      "enabled": true
+    },
+    {
+      "id": "bad-cidrs-v4",
+      "name": "saloniamatteo bad-cidrs IPv4 ranges",
+      "category": "public_feed",
+      "format": "provider_cidr_textlist",
+      "url": "https://raw.githubusercontent.com/saloniamatteo/bad-cidrs/master/CIDRs.txt",
+      "path": "data/raw/public-abuse-feeds/bad-cidrs-v4.txt",
+      "asn_metadata_path": "data/raw/ipverse/as-metadata/as.csv",
+      "enabled": true
+    },
+    {
+      "id": "ipverse-as-metadata",
+      "name": "ipverse AS metadata",
+      "category": "asn_metadata",
+      "format": "ipverse_as_metadata_csv",
+      "url": "https://raw.githubusercontent.com/ipverse/as-metadata/master/as.csv",
+      "path": "data/raw/ipverse/as-metadata/as.csv",
+      "enabled": true
+    },
+    {
+      "id": "blackroute-feeds-config",
+      "name": "blackroute upstream feed configuration",
+      "category": "abuse_config",
+      "format": "blackroute_feeds_yaml",
+      "url": "https://raw.githubusercontent.com/ipanalytics/blackroute/main/configs/feeds.yaml",
+      "path": "data/raw/ipanalytics/blackroute/feeds.yaml",
+      "enabled": true
+    }
+  ]
+}
