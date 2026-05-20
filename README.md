@@ -330,9 +330,14 @@ Planned additions:
 
 ## License
 
+Code in this repository is licensed under Apache-2.0.
 
-Code: Apache-2.0
-Data: CC0-1.0
+Published datasets and generated data artifacts are released under CC0-1.0.
+
+See:
+
+- [`LICENSE`](./LICENSE)
+- [`DATA-LICENSE`](./DATA-LICENSE)
 
 ---
 
