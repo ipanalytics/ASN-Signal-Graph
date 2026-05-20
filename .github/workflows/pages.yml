@@ -1,0 +1,56 @@
+name: Deploy Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch upstream snapshots
+        run: python3 scripts/fetch_sources.py --sources config/sources.json
+      - name: Build ASN signal graph
+        run: python3 scripts/build_signal_graph.py --sources config/sources.json --output-dir data/current
+      - name: Validate site artifact
+        run: |
+          test -s site/index.html
+          test -s site/app.js
+          test -s site/styles.css
+          test -s data/current/dashboard-data.json
+          test -s data/api/index.json
+          test -s data/api/top/vpn.json
+          test -s data/api/top/tor.json
+          test -s data/api/top/drop_list.json
+          test ! -e data/api/top/crawler.json
+          test ! -e data/api/top/scanner.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
