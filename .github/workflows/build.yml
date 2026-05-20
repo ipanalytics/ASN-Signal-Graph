@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,3 +28,14 @@ jobs:
           test -s data/api/top/vpn.json
           test -s data/current/source-index.json
           test -s data/current/summary.json
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/current data/api data/history data/raw/source-fetch-manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated data changes to commit"
+          else
+            git commit -m "Update ASN Signal Graph data"
+            git push
+          fi
