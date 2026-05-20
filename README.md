@@ -330,9 +330,9 @@ Planned additions:
 
 ## License
 
-Licensed under CC0-1.0.
 
-See [`LICENSE`](./LICENSE).
+Code: Apache-2.0
+Data: CC0-1.0
 
 ---
 
