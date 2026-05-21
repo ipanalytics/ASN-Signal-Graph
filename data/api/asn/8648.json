@@ -1,25 +1,23 @@
 {
-  "asn": 56655,
-  "country": "NO",
+  "asn": 8648,
+  "country": "CZ",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
-  "ip_count_estimate": 33,
+  "ip_count_estimate": 0,
   "labels": [
-    "vpn-low",
-    "tor-medium",
-    "anonymity-overlap-infrastructure"
+    "tor-low",
+    "tor-overlap-infrastructure"
   ],
-  "org": "GIGAHOST",
+  "org": "dogado GmbH",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "anonymity-overlap-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 117,
-    "signal_density": 117.0,
-    "source_count": 2,
+    "infrastructure_role": "tor-overlap-infrastructure",
+    "public_feed_overlap": 1,
+    "signal_count": 5,
+    "signal_density": 5.0,
+    "source_count": 1,
     "sources": [
-      "asn-vpn-multi-provider",
       "tor-radar-network"
     ]
   },
@@ -28,8 +26,8 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 84,
-    "vpn_signals": 33
+    "tor_signals": 5,
+    "vpn_signals": 0
   },
   "signals": {
     "drop_list": {
@@ -53,18 +51,16 @@
       "sources": []
     },
     "tor": {
-      "count": 84,
-      "level": "medium",
+      "count": 5,
+      "level": "low",
       "sources": [
         "tor-radar-network"
       ]
     },
     "vpn": {
-      "count": 33,
-      "level": "low",
-      "sources": [
-        "asn-vpn-multi-provider"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     }
   }
 }
