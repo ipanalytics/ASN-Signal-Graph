@@ -1,35 +1,32 @@
 {
-  "asn": 27284,
-  "country": "US",
+  "asn": 18403,
+  "country": "VN",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
-  "ip_count_estimate": 29,
+  "ip_count_estimate": 0,
   "labels": [
-    "vpn-low",
-    "tor-high",
-    "anonymity-overlap-infrastructure"
+    "observed-infrastructure"
   ],
-  "org": "FOURPLEX-ASN",
+  "org": "FPT Telecom Company",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
-    "hosting_type": "tor-heavy-hosting",
-    "infrastructure_role": "anonymity-overlap-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 142,
-    "signal_density": 142.0,
-    "source_count": 2,
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "observed-infrastructure",
+    "public_feed_overlap": 1,
+    "signal_count": 3,
+    "signal_density": 3.0,
+    "source_count": 1,
     "sources": [
-      "asn-vpn-multi-provider",
-      "tor-radar-network"
+      "bad-cidrs-v4"
     ]
   },
   "signal_counts": {
     "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
-    "public_feed_signals": 0,
-    "tor_signals": 113,
-    "vpn_signals": 29
+    "public_feed_signals": 3,
+    "tor_signals": 0,
+    "vpn_signals": 0
   },
   "signals": {
     "drop_list": {
@@ -48,23 +45,21 @@
       "sources": []
     },
     "public_feed": {
+      "count": 3,
+      "level": "medium",
+      "sources": [
+        "bad-cidrs-v4"
+      ]
+    },
+    "tor": {
       "count": 0,
       "level": "none",
       "sources": []
     },
-    "tor": {
-      "count": 113,
-      "level": "high",
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
     "vpn": {
-      "count": 29,
-      "level": "low",
-      "sources": [
-        "asn-vpn-multi-provider"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     }
   }
 }
