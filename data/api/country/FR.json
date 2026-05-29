@@ -50,20 +50,18 @@
       ]
     },
     {
-      "asn": 12876,
-      "confidence": "medium",
+      "asn": 8560,
+      "confidence": "low",
       "country": "FR",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "hosting_type": "tor-heavy-hosting",
+      "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
-        "vpn-medium",
-        "tor-medium",
-        "multi-source-overlap",
-        "anonymity-overlap-infrastructure"
+        "tor-high",
+        "tor-overlap-infrastructure"
       ],
-      "org": "Online SAS",
-      "public_feed_overlap": 3,
-      "signal_count": 195,
+      "org": "IONOS SE",
+      "public_feed_overlap": 2,
+      "signal_count": 292,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -82,7 +80,54 @@
           "level": "high"
         },
         "tor": {
-          "count": 87,
+          "count": 285,
+          "level": "high"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 12876,
+      "confidence": "medium",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-medium",
+        "tor-medium",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "Online SAS",
+      "public_feed_overlap": 3,
+      "signal_count": 194,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 7,
+          "level": "high"
+        },
+        "tor": {
+          "count": 86,
           "level": "medium"
         },
         "vpn": {
@@ -109,7 +154,7 @@
       ],
       "org": "Free SAS",
       "public_feed_overlap": 2,
-      "signal_count": 41,
+      "signal_count": 44,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -128,7 +173,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 37,
+          "count": 40,
           "level": "medium"
         },
         "vpn": {

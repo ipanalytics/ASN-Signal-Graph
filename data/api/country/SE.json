@@ -9,13 +9,13 @@
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "tor-low",
+        "tor-medium",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "GLESYS glesys.com",
       "public_feed_overlap": 3,
-      "signal_count": 198,
+      "signal_count": 199,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,8 +34,8 @@
           "level": "medium"
         },
         "tor": {
-          "count": 9,
-          "level": "low"
+          "count": 10,
+          "level": "medium"
         },
         "vpn": {
           "count": 186,
@@ -378,7 +378,7 @@
       ],
       "org": "TELE2",
       "public_feed_overlap": 2,
-      "signal_count": 17,
+      "signal_count": 16,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -397,7 +397,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 13,
+          "count": 12,
           "level": "medium"
         },
         "vpn": {
@@ -676,6 +676,50 @@
       ]
     },
     {
+      "asn": 49770,
+      "confidence": "low",
+      "country": "SE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Internetport Sweden AB",
+      "public_feed_overlap": 1,
+      "signal_count": 5,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 5,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 50066,
       "confidence": "low",
       "country": "SE",
@@ -775,50 +819,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Patrik Lagerman",
-      "public_feed_overlap": 1,
-      "signal_count": 4,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 4,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 49770,
-      "confidence": "low",
-      "country": "SE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Internetport Sweden AB",
       "public_feed_overlap": 1,
       "signal_count": 4,
       "signals": {
