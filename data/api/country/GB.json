@@ -9,13 +9,13 @@
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-high",
-        "tor-low",
+        "tor-medium",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "CDNEXT",
       "public_feed_overlap": 3,
-      "signal_count": 5242,
+      "signal_count": 5244,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,8 +34,8 @@
           "level": "high"
         },
         "tor": {
-          "count": 9,
-          "level": "low"
+          "count": 11,
+          "level": "medium"
         },
         "vpn": {
           "count": 5225,
@@ -564,7 +564,7 @@
       ],
       "org": "GCS-AS",
       "public_feed_overlap": 2,
-      "signal_count": 27,
+      "signal_count": 26,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -583,7 +583,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 21,
+          "count": 20,
           "level": "medium"
         },
         "vpn": {
@@ -789,7 +789,7 @@
       ],
       "org": "British Telecommunications PLC",
       "public_feed_overlap": 1,
-      "signal_count": 16,
+      "signal_count": 15,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -808,7 +808,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 16,
+          "count": 15,
           "level": "medium"
         },
         "vpn": {
@@ -4884,6 +4884,50 @@
       "source_count": 1,
       "sources": [
         "spamhaus-asndrop"
+      ]
+    },
+    {
+      "asn": 204044,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Packet Star Networks Limited",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
