@@ -9,13 +9,13 @@
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-high",
-        "tor-medium",
+        "tor-low",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "CDNEXT",
       "public_feed_overlap": 3,
-      "signal_count": 5244,
+      "signal_count": 5241,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,8 +34,8 @@
           "level": "high"
         },
         "tor": {
-          "count": 11,
-          "level": "medium"
+          "count": 8,
+          "level": "low"
         },
         "vpn": {
           "count": 5225,
@@ -185,6 +185,51 @@
       "sources": [
         "asn-vpn-multi-provider",
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 31898,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "tor-heavy-hosting",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-high",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Oracle Corporation",
+      "public_feed_overlap": 2,
+      "signal_count": 180,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 16,
+          "level": "high"
+        },
+        "tor": {
+          "count": 164,
+          "level": "high"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     {
@@ -552,52 +597,6 @@
       ]
     },
     {
-      "asn": 215540,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
-      "labels": [
-        "vpn-low",
-        "tor-medium",
-        "anonymity-overlap-infrastructure"
-      ],
-      "org": "GCS-AS",
-      "public_feed_overlap": 2,
-      "signal_count": 24,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 18,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 6,
-          "level": "low"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 4785,
       "confidence": "low",
       "country": "GB",
@@ -683,6 +682,52 @@
       "source_count": 2,
       "sources": [
         "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 215540,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-low",
+        "tor-medium",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "GCS-AS",
+      "public_feed_overlap": 2,
+      "signal_count": 22,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 16,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 6,
+          "level": "low"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
