@@ -14,7 +14,7 @@
       ],
       "org": "CDNEXT",
       "public_feed_overlap": 3,
-      "signal_count": 5240,
+      "signal_count": 5239,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -33,7 +33,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 7,
+          "count": 6,
           "level": "low"
         },
         "vpn": {
@@ -476,7 +476,7 @@
       ],
       "org": "COGENT-174",
       "public_feed_overlap": 3,
-      "signal_count": 501,
+      "signal_count": 500,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -495,7 +495,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 18,
+          "count": 17,
           "level": "medium"
         },
         "vpn": {
@@ -800,7 +800,7 @@
       ],
       "org": "DIGITALOCEAN-ASN",
       "public_feed_overlap": 3,
-      "signal_count": 481,
+      "signal_count": 477,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -819,7 +819,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 168,
+          "count": 164,
           "level": "high"
         },
         "vpn": {
@@ -1031,7 +1031,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 391,
+      "signal_count": 400,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1050,7 +1050,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 219,
+          "count": 228,
           "level": "high"
         },
         "vpn": {
@@ -1079,7 +1079,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 833,
+      "signal_count": 846,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1098,7 +1098,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 631,
+          "count": 644,
           "level": "high"
         },
         "vpn": {
@@ -1126,7 +1126,7 @@
       ],
       "org": "AS-VULTR",
       "public_feed_overlap": 2,
-      "signal_count": 213,
+      "signal_count": 214,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1145,7 +1145,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 73,
+          "count": 74,
           "level": "medium"
         },
         "vpn": {
@@ -1770,7 +1770,7 @@
       ],
       "org": "PONYNET",
       "public_feed_overlap": 3,
-      "signal_count": 280,
+      "signal_count": 277,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1789,7 +1789,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 180,
+          "count": 177,
           "level": "high"
         },
         "vpn": {
@@ -1909,7 +1909,7 @@
       ],
       "org": "AKAMAI-LINODE-AP Akamai Connected Cloud",
       "public_feed_overlap": 2,
-      "signal_count": 246,
+      "signal_count": 245,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1928,7 +1928,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 163,
+          "count": 162,
           "level": "high"
         },
         "vpn": {
@@ -2188,7 +2188,7 @@
       ],
       "org": "HETZNER-AS",
       "public_feed_overlap": 3,
-      "signal_count": 486,
+      "signal_count": 485,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -2207,7 +2207,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 400,
+          "count": 399,
           "level": "high"
         },
         "vpn": {
@@ -2948,22 +2948,24 @@
     },
     {
       "asn": 63023,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "confidence": "medium",
+      "country": "CA",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "mixed-signal-infrastructure",
       "labels": [
         "vpn-low",
         "tor-medium",
-        "anonymity-overlap-infrastructure"
+        "drop_list-high",
+        "multi-source-overlap",
+        "mixed-signal-infrastructure"
       ],
       "org": "AS-GLOBALTELEHOST",
-      "public_feed_overlap": 2,
-      "signal_count": 67,
+      "public_feed_overlap": 3,
+      "signal_count": 68,
       "signals": {
         "drop_list": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "high"
         },
         "malware": {
           "count": 0,
@@ -2986,9 +2988,10 @@
           "level": "low"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
+        "spamhaus-asndrop",
         "tor-radar-network"
       ]
     },
