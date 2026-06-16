@@ -1,39 +1,41 @@
 {
-  "asn": 701,
+  "asn": 26833,
   "country": "US",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 0,
   "labels": [
-    "tor-medium",
-    "tor-overlap-infrastructure"
+    "drop_list-high",
+    "public-feed-listed-infrastructure"
   ],
-  "org": "Verizon Business",
+  "org": "ETCC",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
-    "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "tor-overlap-infrastructure",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "public-feed-listed-infrastructure",
     "public_feed_overlap": 1,
-    "signal_count": 37,
-    "signal_density": 37.0,
+    "signal_count": 1,
+    "signal_density": 1.0,
     "source_count": 1,
     "sources": [
-      "tor-radar-network"
+      "spamhaus-asndrop"
     ]
   },
   "signal_counts": {
-    "drop_list_signals": 0,
+    "drop_list_signals": 1,
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 37,
+    "tor_signals": 0,
     "vpn_signals": 0
   },
   "signals": {
     "drop_list": {
-      "count": 0,
-      "level": "none",
-      "sources": []
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
     },
     "malware": {
       "count": 0,
@@ -51,11 +53,9 @@
       "sources": []
     },
     "tor": {
-      "count": 37,
-      "level": "medium",
-      "sources": [
-        "tor-radar-network"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "vpn": {
       "count": 0,
