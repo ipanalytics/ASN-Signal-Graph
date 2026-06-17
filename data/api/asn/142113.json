@@ -1,27 +1,23 @@
 {
-  "asn": 62904,
-  "country": "US",
+  "asn": 142113,
+  "country": "HK",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
-  "ip_count_estimate": 5,
+  "ip_count_estimate": 0,
   "labels": [
-    "vpn-low",
     "tor-low",
-    "multi-source-overlap",
-    "anonymity-overlap-infrastructure"
+    "tor-overlap-infrastructure"
   ],
-  "org": "AS62904 - Eonix Corporation",
+  "org": "eServer",
   "prefix_count": 0,
   "profile": {
-    "confidence": "medium",
+    "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "anonymity-overlap-infrastructure",
-    "public_feed_overlap": 3,
-    "signal_count": 8,
-    "signal_density": 8.0,
-    "source_count": 3,
+    "infrastructure_role": "tor-overlap-infrastructure",
+    "public_feed_overlap": 1,
+    "signal_count": 1,
+    "signal_density": 1.0,
+    "source_count": 1,
     "sources": [
-      "asn-vpn-multi-provider",
-      "bad-cidrs-v4",
       "tor-radar-network"
     ]
   },
@@ -29,9 +25,9 @@
     "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
-    "public_feed_signals": 2,
+    "public_feed_signals": 0,
     "tor_signals": 1,
-    "vpn_signals": 5
+    "vpn_signals": 0
   },
   "signals": {
     "drop_list": {
@@ -50,13 +46,9 @@
       "sources": []
     },
     "public_feed": {
-      "count": 2,
-      "level": "medium",
-      "sources": [
-        "asn-vpn-multi-provider",
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "tor": {
       "count": 1,
@@ -66,11 +58,9 @@
       ]
     },
     "vpn": {
-      "count": 5,
-      "level": "low",
-      "sources": [
-        "asn-vpn-multi-provider"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     }
   }
 }
