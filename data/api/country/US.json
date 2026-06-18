@@ -241,7 +241,7 @@
       ],
       "org": "DIGITALOCEAN-ASN",
       "public_feed_overlap": 3,
-      "signal_count": 470,
+      "signal_count": 472,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -260,7 +260,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 157,
+          "count": 159,
           "level": "high"
         },
         "vpn": {
@@ -289,7 +289,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 415,
+      "signal_count": 413,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -308,7 +308,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 243,
+          "count": 241,
           "level": "high"
         },
         "vpn": {
@@ -429,7 +429,7 @@
       ],
       "org": "PONYNET",
       "public_feed_overlap": 3,
-      "signal_count": 277,
+      "signal_count": 276,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -448,7 +448,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 177,
+          "count": 176,
           "level": "high"
         },
         "vpn": {
@@ -476,7 +476,7 @@
       ],
       "org": "AKAMAI-LINODE-AP Akamai Connected Cloud",
       "public_feed_overlap": 2,
-      "signal_count": 255,
+      "signal_count": 254,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -495,7 +495,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 172,
+          "count": 171,
           "level": "high"
         },
         "vpn": {
@@ -611,7 +611,7 @@
       ],
       "org": "Oracle Corporation",
       "public_feed_overlap": 2,
-      "signal_count": 201,
+      "signal_count": 200,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -630,7 +630,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 185,
+          "count": 184,
           "level": "high"
         },
         "vpn": {
@@ -5236,7 +5236,7 @@
       ],
       "org": "IncogNet LLC",
       "public_feed_overlap": 1,
-      "signal_count": 24,
+      "signal_count": 23,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -5255,7 +5255,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 24,
+          "count": 23,
           "level": "medium"
         },
         "vpn": {
@@ -5280,7 +5280,7 @@
       ],
       "org": "Frontier Communications of America, Inc.",
       "public_feed_overlap": 1,
-      "signal_count": 18,
+      "signal_count": 17,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -5299,7 +5299,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 18,
+          "count": 17,
           "level": "medium"
         },
         "vpn": {
@@ -8275,50 +8275,6 @@
       ]
     },
     {
-      "asn": 3,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Adaptive Systems A/S",
-      "public_feed_overlap": 1,
-      "signal_count": 12,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 12,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 924,
       "confidence": "low",
       "country": "US",
@@ -8404,6 +8360,50 @@
       "source_count": 2,
       "sources": [
         "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 3,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Adaptive Systems A/S",
+      "public_feed_overlap": 1,
+      "signal_count": 11,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 11,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
         "tor-radar-network"
       ]
     },
@@ -9967,6 +9967,52 @@
       ]
     },
     {
+      "asn": 399646,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-low",
+        "tor-low",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "DARTNODE",
+      "public_feed_overlap": 2,
+      "signal_count": 7,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 4,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 3,
+          "level": "low"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "asn-vpn-multi-provider",
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 6564,
       "confidence": "low",
       "country": "US",
@@ -10360,52 +10406,6 @@
       },
       "source_count": 1,
       "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 399646,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
-      "labels": [
-        "vpn-low",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
-      ],
-      "org": "DARTNODE",
-      "public_feed_overlap": 2,
-      "signal_count": 6,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 3,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 3,
-          "level": "low"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
