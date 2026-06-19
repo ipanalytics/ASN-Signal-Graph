@@ -63,7 +63,7 @@
       ],
       "org": "NETCUP-AS netcup GmbH",
       "public_feed_overlap": 3,
-      "signal_count": 336,
+      "signal_count": 337,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -82,7 +82,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 309,
+          "count": 310,
           "level": "high"
         },
         "vpn": {
@@ -153,7 +153,7 @@
       ],
       "org": "IONOS SE",
       "public_feed_overlap": 2,
-      "signal_count": 308,
+      "signal_count": 310,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -172,7 +172,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 301,
+          "count": 303,
           "level": "high"
         },
         "vpn": {
@@ -243,7 +243,7 @@
       ],
       "org": "Deutsche Telekom AG",
       "public_feed_overlap": 2,
-      "signal_count": 85,
+      "signal_count": 84,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -262,7 +262,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 82,
+          "count": 81,
           "level": "medium"
         },
         "vpn": {
@@ -288,7 +288,7 @@
       ],
       "org": "Vodafone GmbH",
       "public_feed_overlap": 1,
-      "signal_count": 61,
+      "signal_count": 66,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -307,7 +307,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 61,
+          "count": 66,
           "level": "medium"
         },
         "vpn": {
@@ -424,7 +424,7 @@
       ],
       "org": "LEASEWEB-DE-FRA-10",
       "public_feed_overlap": 2,
-      "signal_count": 39,
+      "signal_count": 38,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -443,7 +443,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 17,
+          "count": 16,
           "level": "medium"
         },
         "vpn": {
@@ -947,50 +947,6 @@
       ]
     },
     {
-      "asn": 6805,
-      "confidence": "low",
-      "country": "DE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Telefonica Germany GmbH & Co.OHG",
-      "public_feed_overlap": 1,
-      "signal_count": 10,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 10,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 35366,
       "confidence": "low",
       "country": "DE",
@@ -1045,6 +1001,50 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Level 3 Parent, LLC",
+      "public_feed_overlap": 1,
+      "signal_count": 9,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 9,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 6805,
+      "confidence": "low",
+      "country": "DE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Telefonica Germany GmbH & Co.OHG",
       "public_feed_overlap": 1,
       "signal_count": 9,
       "signals": {
@@ -1648,54 +1648,6 @@
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 213790,
-      "confidence": "medium",
-      "country": "DE",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "drop_list-high",
-        "multi-source-overlap",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Limited Network LTD",
-      "public_feed_overlap": 3,
-      "signal_count": 5,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 1,
-          "level": "low"
-        },
-        "tor": {
-          "count": 3,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 3,
-      "sources": [
-        "bad-cidrs-v4",
-        "spamhaus-asndrop",
         "tor-radar-network"
       ]
     },
