@@ -193,7 +193,7 @@
       ],
       "org": "COGENT-174",
       "public_feed_overlap": 3,
-      "signal_count": 500,
+      "signal_count": 499,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -212,7 +212,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 17,
+          "count": 16,
           "level": "medium"
         },
         "vpn": {
@@ -241,7 +241,7 @@
       ],
       "org": "DIGITALOCEAN-ASN",
       "public_feed_overlap": 3,
-      "signal_count": 478,
+      "signal_count": 477,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -260,7 +260,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 165,
+          "count": 164,
           "level": "high"
         },
         "vpn": {
@@ -333,7 +333,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 404,
+      "signal_count": 402,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -352,7 +352,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 232,
+          "count": 230,
           "level": "high"
         },
         "vpn": {
@@ -611,7 +611,7 @@
       ],
       "org": "Oracle Corporation",
       "public_feed_overlap": 2,
-      "signal_count": 200,
+      "signal_count": 198,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -630,7 +630,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 184,
+          "count": 182,
           "level": "high"
         },
         "vpn": {
@@ -1009,7 +1009,7 @@
       ],
       "org": "Emerald Onion",
       "public_feed_overlap": 2,
-      "signal_count": 99,
+      "signal_count": 98,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1028,7 +1028,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 97,
+          "count": 96,
           "level": "medium"
         },
         "vpn": {
@@ -1142,13 +1142,13 @@
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "tor-medium",
+        "tor-low",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "MICROSOFT-CORP-MSN-AS-BLOCK",
       "public_feed_overlap": 3,
-      "signal_count": 74,
+      "signal_count": 73,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1167,8 +1167,8 @@
           "level": "high"
         },
         "tor": {
-          "count": 10,
-          "level": "medium"
+          "count": 9,
+          "level": "low"
         },
         "vpn": {
           "count": 2,
@@ -4741,7 +4741,7 @@
       ],
       "org": "Verizon Business",
       "public_feed_overlap": 1,
-      "signal_count": 37,
+      "signal_count": 36,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -4760,7 +4760,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 37,
+          "count": 36,
           "level": "medium"
         },
         "vpn": {
@@ -5234,7 +5234,7 @@
       ],
       "org": "IncogNet LLC",
       "public_feed_overlap": 1,
-      "signal_count": 24,
+      "signal_count": 22,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -5253,7 +5253,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 24,
+          "count": 22,
           "level": "medium"
         },
         "vpn": {
@@ -8450,6 +8450,50 @@
       ]
     },
     {
+      "asn": 16591,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Google Fiber Inc.",
+      "public_feed_overlap": 1,
+      "signal_count": 11,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 11,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 23470,
       "confidence": "medium",
       "country": "US",
@@ -8671,50 +8715,6 @@
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 16591,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Google Fiber Inc.",
-      "public_feed_overlap": 1,
-      "signal_count": 10,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 10,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
         "tor-radar-network"
       ]
     },

@@ -238,14 +238,15 @@
       "confidence": "low",
       "country": "AU",
       "hosting_type": "vpn-heavy-hosting",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-high",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "GSLNETWORKS-AS-AP GSL Networks Pty LTD",
-      "public_feed_overlap": 1,
-      "signal_count": 1098,
+      "public_feed_overlap": 2,
+      "signal_count": 1099,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -264,17 +265,18 @@
           "level": "none"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 1098,
           "level": "high"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "asn-vpn-multi-provider"
+        "asn-vpn-multi-provider",
+        "tor-radar-network"
       ]
     },
     {
@@ -474,7 +476,7 @@
       ],
       "org": "COGENT-174",
       "public_feed_overlap": 3,
-      "signal_count": 500,
+      "signal_count": 499,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -493,7 +495,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 17,
+          "count": 16,
           "level": "medium"
         },
         "vpn": {
@@ -798,7 +800,7 @@
       ],
       "org": "DIGITALOCEAN-ASN",
       "public_feed_overlap": 3,
-      "signal_count": 478,
+      "signal_count": 477,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -817,7 +819,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 165,
+          "count": 164,
           "level": "high"
         },
         "vpn": {
@@ -1029,7 +1031,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 404,
+      "signal_count": 402,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1048,7 +1050,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 232,
+          "count": 230,
           "level": "high"
         },
         "vpn": {
@@ -1077,7 +1079,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 839,
+      "signal_count": 841,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1096,7 +1098,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 637,
+          "count": 639,
           "level": "high"
         },
         "vpn": {
@@ -2184,7 +2186,7 @@
       ],
       "org": "HETZNER-AS",
       "public_feed_overlap": 3,
-      "signal_count": 510,
+      "signal_count": 508,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -2203,7 +2205,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 424,
+          "count": 422,
           "level": "high"
         },
         "vpn": {
@@ -3963,7 +3965,7 @@
       ],
       "org": "NETCUP-AS netcup GmbH",
       "public_feed_overlap": 3,
-      "signal_count": 335,
+      "signal_count": 336,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -3982,7 +3984,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 308,
+          "count": 309,
           "level": "high"
         },
         "vpn": {
