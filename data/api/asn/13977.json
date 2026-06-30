@@ -1,27 +1,23 @@
 {
-  "asn": 174,
+  "asn": 13977,
   "country": "US",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
-  "ip_count_estimate": 476,
+  "ip_count_estimate": 0,
   "labels": [
-    "vpn-medium",
-    "tor-medium",
-    "multi-source-overlap",
-    "anonymity-overlap-infrastructure"
+    "tor-low",
+    "tor-overlap-infrastructure"
   ],
-  "org": "COGENT-174",
+  "org": "Fidium",
   "prefix_count": 0,
   "profile": {
-    "confidence": "medium",
+    "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "anonymity-overlap-infrastructure",
-    "public_feed_overlap": 3,
-    "signal_count": 497,
-    "signal_density": 497.0,
-    "source_count": 3,
+    "infrastructure_role": "tor-overlap-infrastructure",
+    "public_feed_overlap": 1,
+    "signal_count": 1,
+    "signal_density": 1.0,
+    "source_count": 1,
     "sources": [
-      "asn-vpn-multi-provider",
-      "bad-cidrs-v4",
       "tor-radar-network"
     ]
   },
@@ -29,9 +25,9 @@
     "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
-    "public_feed_signals": 7,
-    "tor_signals": 14,
-    "vpn_signals": 476
+    "public_feed_signals": 0,
+    "tor_signals": 1,
+    "vpn_signals": 0
   },
   "signals": {
     "drop_list": {
@@ -50,27 +46,21 @@
       "sources": []
     },
     "public_feed": {
-      "count": 7,
-      "level": "high",
-      "sources": [
-        "asn-vpn-multi-provider",
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "tor": {
-      "count": 14,
-      "level": "medium",
+      "count": 1,
+      "level": "low",
       "sources": [
         "tor-radar-network"
       ]
     },
     "vpn": {
-      "count": 476,
-      "level": "medium",
-      "sources": [
-        "asn-vpn-multi-provider"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     }
   }
 }
