@@ -242,7 +242,7 @@
       ],
       "org": "NETROUTING-AS",
       "public_feed_overlap": 2,
-      "signal_count": 74,
+      "signal_count": 75,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -261,7 +261,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 3,
+          "count": 4,
           "level": "low"
         },
         "vpn": {
@@ -519,7 +519,7 @@
       ],
       "org": "Vodafone Libertel B.V.",
       "public_feed_overlap": 1,
-      "signal_count": 22,
+      "signal_count": 23,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -538,7 +538,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 22,
+          "count": 23,
           "level": "medium"
         },
         "vpn": {
@@ -838,50 +838,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Oxide Group Limited",
-      "public_feed_overlap": 1,
-      "signal_count": 12,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 12,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 204601,
-      "confidence": "low",
-      "country": "NL",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "NovoServe B.V.",
       "public_feed_overlap": 1,
       "signal_count": 12,
       "signals": {
@@ -1541,7 +1497,7 @@
       ]
     },
     {
-      "asn": 15435,
+      "asn": 21100,
       "confidence": "low",
       "country": "NL",
       "hosting_type": "infrastructure-observed",
@@ -1550,7 +1506,7 @@
         "tor-low",
         "tor-overlap-infrastructure"
       ],
-      "org": "DELTA Fiber Nederland B.V.",
+      "org": "GREEN FLOID LLC",
       "public_feed_overlap": 1,
       "signal_count": 4,
       "signals": {
@@ -1896,7 +1852,7 @@
       ]
     },
     {
-      "asn": 21100,
+      "asn": 15435,
       "confidence": "low",
       "country": "NL",
       "hosting_type": "infrastructure-observed",
@@ -1905,7 +1861,7 @@
         "tor-low",
         "tor-overlap-infrastructure"
       ],
-      "org": "GREEN FLOID LLC",
+      "org": "DELTA Fiber Nederland B.V.",
       "public_feed_overlap": 1,
       "signal_count": 3,
       "signals": {
@@ -2730,50 +2686,6 @@
       ]
     },
     {
-      "asn": 211895,
-      "confidence": "low",
-      "country": "NL",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Serverius Holding B.V.",
-      "public_feed_overlap": 1,
-      "signal_count": 2,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 2,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 214736,
       "confidence": "low",
       "country": "NL",
@@ -2814,6 +2726,51 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 216071,
+      "confidence": "low",
+      "country": "NL",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "SERVERS TECH FZCO",
+      "public_feed_overlap": 2,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 1,
+          "level": "low"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     {
@@ -3869,6 +3826,50 @@
       "source_count": 1,
       "sources": [
         "spamhaus-asndrop"
+      ]
+    },
+    {
+      "asn": 211895,
+      "confidence": "low",
+      "country": "NL",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Serverius Holding B.V.",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {

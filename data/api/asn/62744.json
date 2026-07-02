@@ -5,20 +5,22 @@
   "ip_count_estimate": 89,
   "labels": [
     "vpn-medium",
-    "vpn-overlap-infrastructure"
+    "tor-medium",
+    "anonymity-overlap-infrastructure"
   ],
   "org": "QUINTEX",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "vpn-overlap-infrastructure",
-    "public_feed_overlap": 1,
-    "signal_count": 89,
-    "signal_density": 89.0,
-    "source_count": 1,
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 178,
+    "signal_density": 178.0,
+    "source_count": 2,
     "sources": [
-      "asn-vpn-multi-provider"
+      "asn-vpn-multi-provider",
+      "tor-radar-network"
     ]
   },
   "signal_counts": {
@@ -26,7 +28,7 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 0,
+    "tor_signals": 89,
     "vpn_signals": 89
   },
   "signals": {
@@ -51,9 +53,11 @@
       "sources": []
     },
     "tor": {
-      "count": 0,
-      "level": "none",
-      "sources": []
+      "count": 89,
+      "level": "medium",
+      "sources": [
+        "tor-radar-network"
+      ]
     },
     "vpn": {
       "count": 89,
