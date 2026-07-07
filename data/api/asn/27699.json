@@ -1,24 +1,23 @@
 {
-  "asn": 3320,
-  "country": "DE",
+  "asn": 27699,
+  "country": "BR",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 0,
   "labels": [
-    "tor-medium",
+    "tor-low",
     "tor-overlap-infrastructure"
   ],
-  "org": "Deutsche Telekom AG",
+  "org": "TELEF\u00d4NICA BRASIL S.A",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
     "infrastructure_role": "tor-overlap-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 81,
-    "signal_density": 81.0,
-    "source_count": 2,
+    "public_feed_overlap": 1,
+    "signal_count": 2,
+    "signal_density": 2.0,
+    "source_count": 1,
     "sources": [
-      "bad-cidrs-v4",
       "tor-radar-network"
     ]
   },
@@ -26,8 +25,8 @@
     "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
-    "public_feed_signals": 3,
-    "tor_signals": 78,
+    "public_feed_signals": 0,
+    "tor_signals": 2,
     "vpn_signals": 0
   },
   "signals": {
@@ -47,16 +46,13 @@
       "sources": []
     },
     "public_feed": {
-      "count": 3,
-      "level": "medium",
-      "sources": [
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "tor": {
-      "count": 78,
-      "level": "medium",
+      "count": 2,
+      "level": "low",
       "sources": [
         "tor-radar-network"
       ]
