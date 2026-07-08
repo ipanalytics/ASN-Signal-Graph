@@ -5,24 +5,21 @@
   "ip_count_estimate": 6,
   "labels": [
     "vpn-low",
-    "tor-low",
-    "multi-source-overlap",
-    "anonymity-overlap-infrastructure"
+    "vpn-overlap-infrastructure"
   ],
   "org": "KDDI KDDI CORPORATION",
   "prefix_count": 0,
   "profile": {
-    "confidence": "medium",
+    "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "anonymity-overlap-infrastructure",
-    "public_feed_overlap": 3,
-    "signal_count": 9,
-    "signal_density": 9.0,
-    "source_count": 3,
+    "infrastructure_role": "vpn-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 8,
+    "signal_density": 8.0,
+    "source_count": 2,
     "sources": [
       "asn-vpn-multi-provider",
-      "bad-cidrs-v4",
-      "tor-radar-network"
+      "bad-cidrs-v4"
     ]
   },
   "signal_counts": {
@@ -30,7 +27,7 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 2,
-    "tor_signals": 1,
+    "tor_signals": 0,
     "vpn_signals": 6
   },
   "signals": {
@@ -54,16 +51,13 @@
       "level": "medium",
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4",
-        "tor-radar-network"
+        "bad-cidrs-v4"
       ]
     },
     "tor": {
-      "count": 1,
-      "level": "low",
-      "sources": [
-        "tor-radar-network"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "vpn": {
       "count": 6,
