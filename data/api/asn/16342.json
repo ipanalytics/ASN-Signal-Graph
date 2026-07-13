@@ -1,31 +1,32 @@
 {
-  "asn": 8452,
-  "country": "EG",
+  "asn": 16342,
+  "country": "PL",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 0,
   "labels": [
-    "observed-infrastructure"
+    "tor-low",
+    "tor-overlap-infrastructure"
   ],
-  "org": "Telecom Egypt",
+  "org": "Toya sp.z.o.o",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "observed-infrastructure",
+    "infrastructure_role": "tor-overlap-infrastructure",
     "public_feed_overlap": 1,
     "signal_count": 1,
     "signal_density": 1.0,
     "source_count": 1,
     "sources": [
-      "bad-cidrs-v4"
+      "tor-radar-network"
     ]
   },
   "signal_counts": {
     "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
-    "public_feed_signals": 1,
-    "tor_signals": 0,
+    "public_feed_signals": 0,
+    "tor_signals": 1,
     "vpn_signals": 0
   },
   "signals": {
@@ -45,16 +46,16 @@
       "sources": []
     },
     "public_feed": {
-      "count": 1,
-      "level": "low",
-      "sources": [
-        "bad-cidrs-v4"
-      ]
-    },
-    "tor": {
       "count": 0,
       "level": "none",
       "sources": []
+    },
+    "tor": {
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
     },
     "vpn": {
       "count": 0,
