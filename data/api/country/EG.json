@@ -6,13 +6,14 @@
       "confidence": "low",
       "country": "EG",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "observed-infrastructure",
+      "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
-        "observed-infrastructure"
+        "tor-low",
+        "tor-overlap-infrastructure"
       ],
-      "org": "Telecom Egypt",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
+      "org": "TE-AS",
+      "public_feed_overlap": 2,
+      "signal_count": 2,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -31,17 +32,18 @@
           "level": "low"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 0,
           "level": "none"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     }
   ]
