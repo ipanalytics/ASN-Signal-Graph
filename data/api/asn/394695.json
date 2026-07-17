@@ -1,24 +1,24 @@
 {
-  "asn": 58955,
-  "country": "TH",
+  "asn": 394695,
+  "country": "AE",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
-  "ip_count_estimate": 2,
+  "ip_count_estimate": 0,
   "labels": [
-    "vpn-low",
-    "vpn-overlap-infrastructure"
+    "tor-low",
+    "tor-overlap-infrastructure"
   ],
-  "org": "BANGMODENTERPRISE-TH Bangmod Enterprise Co., Ltd.",
+  "org": "PDR",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "vpn-overlap-infrastructure",
+    "infrastructure_role": "tor-overlap-infrastructure",
     "public_feed_overlap": 1,
-    "signal_count": 2,
-    "signal_density": 2.0,
+    "signal_count": 1,
+    "signal_density": 1.0,
     "source_count": 1,
     "sources": [
-      "asn-vpn-multi-provider"
+      "tor-radar-network"
     ]
   },
   "signal_counts": {
@@ -26,8 +26,8 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 0,
-    "vpn_signals": 2
+    "tor_signals": 1,
+    "vpn_signals": 0
   },
   "signals": {
     "drop_list": {
@@ -51,16 +51,16 @@
       "sources": []
     },
     "tor": {
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    "vpn": {
       "count": 0,
       "level": "none",
       "sources": []
-    },
-    "vpn": {
-      "count": 2,
-      "level": "low",
-      "sources": [
-        "asn-vpn-multi-provider"
-      ]
     }
   }
 }

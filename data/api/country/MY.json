@@ -6,14 +6,15 @@
       "confidence": "low",
       "country": "MY",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "GBNETWORK-AS-AP GB Network Solutions Sdn. Bhd.",
-      "public_feed_overlap": 1,
-      "signal_count": 59,
+      "public_feed_overlap": 2,
+      "signal_count": 60,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -32,17 +33,18 @@
           "level": "none"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 59,
           "level": "medium"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "asn-vpn-multi-provider"
+        "asn-vpn-multi-provider",
+        "tor-radar-network"
       ]
     },
     {
