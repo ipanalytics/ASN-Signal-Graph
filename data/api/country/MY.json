@@ -6,15 +6,14 @@
       "confidence": "low",
       "country": "MY",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
+        "vpn-overlap-infrastructure"
       ],
       "org": "GBNETWORK-AS-AP GB Network Solutions Sdn. Bhd.",
-      "public_feed_overlap": 2,
-      "signal_count": 60,
+      "public_feed_overlap": 1,
+      "signal_count": 59,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -33,18 +32,17 @@
           "level": "none"
         },
         "tor": {
-          "count": 1,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         },
         "vpn": {
           "count": 59,
           "level": "medium"
         }
       },
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "asn-vpn-multi-provider",
-        "tor-radar-network"
+        "asn-vpn-multi-provider"
       ]
     },
     {
@@ -106,7 +104,7 @@
       ],
       "org": "SHINJIRU-MY-AS-AP Shinjiru Technology Sdn Bhd",
       "public_feed_overlap": 2,
-      "signal_count": 11,
+      "signal_count": 13,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -125,7 +123,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 5,
+          "count": 7,
           "level": "low"
         },
         "vpn": {
@@ -196,6 +194,50 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Maxis Broadband Sdn Bhd",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 219206,
+      "confidence": "low",
+      "country": "MY",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "BRANDON MAXWELL LOOI",
       "public_feed_overlap": 1,
       "signal_count": 1,
       "signals": {
