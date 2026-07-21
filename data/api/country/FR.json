@@ -15,7 +15,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 833,
+      "signal_count": 831,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 631,
+          "count": 629,
           "level": "high"
         },
         "vpn": {
@@ -109,7 +109,7 @@
       ],
       "org": "Free SAS",
       "public_feed_overlap": 2,
-      "signal_count": 42,
+      "signal_count": 41,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -128,7 +128,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 38,
+          "count": 37,
           "level": "medium"
         },
         "vpn": {
@@ -446,6 +446,51 @@
       },
       "source_count": 1,
       "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 21499,
+      "confidence": "low",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Host Europe GmbH",
+      "public_feed_overlap": 2,
+      "signal_count": 8,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 1,
+          "level": "low"
+        },
+        "tor": {
+          "count": 7,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
