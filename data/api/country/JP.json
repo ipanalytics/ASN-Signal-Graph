@@ -46,17 +46,19 @@
     },
     {
       "asn": 2516,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "JP",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "KDDI KDDI CORPORATION",
-      "public_feed_overlap": 2,
-      "signal_count": 8,
+      "public_feed_overlap": 3,
+      "signal_count": 9,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -75,18 +77,19 @@
           "level": "medium"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 6,
           "level": "low"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     {
@@ -486,6 +489,50 @@
       ]
     },
     {
+      "asn": 7489,
+      "confidence": "low",
+      "country": "JP",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "HostUS",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 9378,
       "confidence": "low",
       "country": "JP",
@@ -541,50 +588,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "SoftBank Corp.",
-      "public_feed_overlap": 1,
-      "signal_count": 2,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 2,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 18126,
-      "confidence": "low",
-      "country": "JP",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Chubu Telecommunications Company, Inc.",
       "public_feed_overlap": 1,
       "signal_count": 2,
       "signals": {
@@ -1315,6 +1318,50 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 18126,
+      "confidence": "low",
+      "country": "JP",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Chubu Telecommunications Company, Inc.",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
