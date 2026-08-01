@@ -1,32 +1,31 @@
 {
-  "asn": 132203,
-  "country": "SG",
+  "asn": 55991,
+  "country": "CN",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 0,
   "labels": [
-    "tor-low",
-    "tor-overlap-infrastructure"
+    "observed-infrastructure"
   ],
-  "org": "Shenzhen Tencent Computer Systems Company Limited",
+  "org": "China Mobile Communications Group Co. Ltd",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "tor-overlap-infrastructure",
+    "infrastructure_role": "observed-infrastructure",
     "public_feed_overlap": 1,
-    "signal_count": 2,
-    "signal_density": 2.0,
+    "signal_count": 1,
+    "signal_density": 1.0,
     "source_count": 1,
     "sources": [
-      "tor-radar-network"
+      "bad-cidrs-v4"
     ]
   },
   "signal_counts": {
     "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
-    "public_feed_signals": 0,
-    "tor_signals": 2,
+    "public_feed_signals": 1,
+    "tor_signals": 0,
     "vpn_signals": 0
   },
   "signals": {
@@ -46,16 +45,16 @@
       "sources": []
     },
     "public_feed": {
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "bad-cidrs-v4"
+      ]
+    },
+    "tor": {
       "count": 0,
       "level": "none",
       "sources": []
-    },
-    "tor": {
-      "count": 2,
-      "level": "low",
-      "sources": [
-        "tor-radar-network"
-      ]
     },
     "vpn": {
       "count": 0,
