@@ -288,7 +288,7 @@
       ],
       "org": "NETROUTING-AS",
       "public_feed_overlap": 2,
-      "signal_count": 74,
+      "signal_count": 75,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -307,7 +307,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 3,
+          "count": 4,
           "level": "low"
         },
         "vpn": {
@@ -366,6 +366,52 @@
       "sources": [
         "asn-vpn-multi-provider",
         "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 212477,
+      "confidence": "low",
+      "country": "NL",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-low",
+        "tor-medium",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "ROYALE-AS",
+      "public_feed_overlap": 2,
+      "signal_count": 31,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 28,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 3,
+          "level": "low"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
@@ -469,7 +515,7 @@
       ],
       "org": "Vodafone Libertel B.V.",
       "public_feed_overlap": 1,
-      "signal_count": 23,
+      "signal_count": 22,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -488,7 +534,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 23,
+          "count": 22,
           "level": "medium"
         },
         "vpn": {
@@ -513,7 +559,7 @@
       ],
       "org": "KPN B.V.",
       "public_feed_overlap": 1,
-      "signal_count": 20,
+      "signal_count": 21,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -532,7 +578,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 20,
+          "count": 21,
           "level": "medium"
         },
         "vpn": {
@@ -542,52 +588,6 @@
       },
       "source_count": 1,
       "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 212477,
-      "confidence": "low",
-      "country": "NL",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
-      "labels": [
-        "vpn-low",
-        "tor-medium",
-        "anonymity-overlap-infrastructure"
-      ],
-      "org": "ROYALE-AS",
-      "public_feed_overlap": 2,
-      "signal_count": 20,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 17,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 3,
-          "level": "low"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
@@ -686,50 +686,6 @@
         "asn-vpn-multi-provider",
         "bad-cidrs-v4",
         "spamhaus-asndrop",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 215248,
-      "confidence": "low",
-      "country": "NL",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Bastiaan Mathijs Brink",
-      "public_feed_overlap": 1,
-      "signal_count": 18,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 18,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
         "tor-radar-network"
       ]
     },
@@ -3956,50 +3912,6 @@
       "source_count": 1,
       "sources": [
         "spamhaus-asndrop"
-      ]
-    },
-    {
-      "asn": 211895,
-      "confidence": "low",
-      "country": "NL",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Serverius Holding B.V.",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {

@@ -15,7 +15,7 @@
       ],
       "org": "VNPT-AS-VN VNPT Corp",
       "public_feed_overlap": 3,
-      "signal_count": 26,
+      "signal_count": 27,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 1,
+          "count": 2,
           "level": "low"
         },
         "vpn": {
@@ -182,51 +182,6 @@
       ]
     },
     {
-      "asn": 18403,
-      "confidence": "low",
-      "country": "VN",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "FPT Telecom Company",
-      "public_feed_overlap": 2,
-      "signal_count": 4,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 3,
-          "level": "medium"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 24086,
       "confidence": "low",
       "country": "VN",
@@ -296,6 +251,49 @@
         },
         "public_feed": {
           "count": 4,
+          "level": "medium"
+        },
+        "tor": {
+          "count": 0,
+          "level": "none"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 18403,
+      "confidence": "low",
+      "country": "VN",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "observed-infrastructure",
+      "labels": [
+        "observed-infrastructure"
+      ],
+      "org": "FPT Telecom Company",
+      "public_feed_overlap": 1,
+      "signal_count": 3,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 3,
           "level": "medium"
         },
         "tor": {
