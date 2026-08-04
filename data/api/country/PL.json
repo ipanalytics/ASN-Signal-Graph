@@ -139,18 +139,17 @@
       ]
     },
     {
-      "asn": 43641,
+      "asn": 5617,
       "confidence": "low",
       "country": "PL",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
-        "vpn-low",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
+        "tor-medium",
+        "tor-overlap-infrastructure"
       ],
-      "org": "SOLLUTIUM-NL",
-      "public_feed_overlap": 2,
+      "org": "Orange Polska Spolka Akcyjna",
+      "public_feed_overlap": 1,
       "signal_count": 10,
       "signals": {
         "drop_list": {
@@ -170,17 +169,16 @@
           "level": "none"
         },
         "tor": {
-          "count": 7,
-          "level": "low"
+          "count": 10,
+          "level": "medium"
         },
         "vpn": {
-          "count": 3,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         }
       },
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
@@ -228,17 +226,18 @@
       ]
     },
     {
-      "asn": 5617,
+      "asn": 43641,
       "confidence": "low",
       "country": "PL",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
+        "vpn-low",
         "tor-low",
-        "tor-overlap-infrastructure"
+        "anonymity-overlap-infrastructure"
       ],
-      "org": "Orange Polska Spolka Akcyjna",
-      "public_feed_overlap": 1,
+      "org": "SOLLUTIUM-NL",
+      "public_feed_overlap": 2,
       "signal_count": 8,
       "signals": {
         "drop_list": {
@@ -258,16 +257,17 @@
           "level": "none"
         },
         "tor": {
-          "count": 8,
+          "count": 5,
           "level": "low"
         },
         "vpn": {
-          "count": 0,
-          "level": "none"
+          "count": 3,
+          "level": "low"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
