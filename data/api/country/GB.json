@@ -741,7 +741,7 @@
       ],
       "org": "Virgin Media Limited",
       "public_feed_overlap": 2,
-      "signal_count": 16,
+      "signal_count": 17,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -760,7 +760,7 @@
           "level": "low"
         },
         "tor": {
-          "count": 15,
+          "count": 16,
           "level": "medium"
         },
         "vpn": {
@@ -2211,6 +2211,52 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 215311,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "drop_list-high",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Regxa Company for Information Technology Ltd",
+      "public_feed_overlap": 2,
+      "signal_count": 4,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 3,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "spamhaus-asndrop",
+        "tor-radar-network"
       ]
     },
     {
