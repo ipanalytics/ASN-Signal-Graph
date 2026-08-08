@@ -15,7 +15,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 832,
+      "signal_count": 834,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 630,
+          "count": 632,
           "level": "high"
         },
         "vpn": {
@@ -50,20 +50,18 @@
       ]
     },
     {
-      "asn": 12876,
-      "confidence": "medium",
+      "asn": 8560,
+      "confidence": "low",
       "country": "FR",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "hosting_type": "tor-heavy-hosting",
+      "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
-        "vpn-medium",
-        "tor-medium",
-        "multi-source-overlap",
-        "anonymity-overlap-infrastructure"
+        "tor-high",
+        "tor-overlap-infrastructure"
       ],
-      "org": "Online SAS",
-      "public_feed_overlap": 3,
-      "signal_count": 199,
+      "org": "IONOS SE",
+      "public_feed_overlap": 2,
+      "signal_count": 291,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -82,7 +80,54 @@
           "level": "high"
         },
         "tor": {
-          "count": 91,
+          "count": 284,
+          "level": "high"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 12876,
+      "confidence": "medium",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-medium",
+        "tor-medium",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "Online SAS",
+      "public_feed_overlap": 3,
+      "signal_count": 200,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 7,
+          "level": "high"
+        },
+        "tor": {
+          "count": 92,
           "level": "medium"
         },
         "vpn": {
@@ -197,7 +242,7 @@
       ],
       "org": "Orange S.A.",
       "public_feed_overlap": 1,
-      "signal_count": 20,
+      "signal_count": 19,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -216,7 +261,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 20,
+          "count": 19,
           "level": "medium"
         },
         "vpn": {
@@ -624,7 +669,7 @@
       ]
     },
     {
-      "asn": 399486,
+      "asn": 20766,
       "confidence": "low",
       "country": "FR",
       "hosting_type": "infrastructure-observed",
@@ -633,9 +678,9 @@
         "tor-low",
         "tor-overlap-infrastructure"
       ],
-      "org": "12651980 CANADA INC.",
+      "org": "Association \"Gitoyen\"",
       "public_feed_overlap": 1,
-      "signal_count": 6,
+      "signal_count": 5,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -654,7 +699,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 6,
+          "count": 5,
           "level": "low"
         },
         "vpn": {
@@ -668,7 +713,7 @@
       ]
     },
     {
-      "asn": 20766,
+      "asn": 399486,
       "confidence": "low",
       "country": "FR",
       "hosting_type": "infrastructure-observed",
@@ -677,7 +722,7 @@
         "tor-low",
         "tor-overlap-infrastructure"
       ],
-      "org": "Association \"Gitoyen\"",
+      "org": "12651980 CANADA INC.",
       "public_feed_overlap": 1,
       "signal_count": 5,
       "signals": {
