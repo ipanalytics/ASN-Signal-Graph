@@ -1,29 +1,27 @@
 {
   "asn": 214940,
-  "country": "GB",
+  "country": "US",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 0,
   "labels": [
-    "drop_list-high",
-    "public-feed-listed-infrastructure"
+    "observed-infrastructure"
   ],
-  "org": "KPRONET",
+  "org": "KPROHOST LLC",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
-    "hosting_type": "public-feed-listed-asn",
-    "infrastructure_role": "public-feed-listed-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 3,
-    "signal_density": 3.0,
-    "source_count": 2,
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "observed-infrastructure",
+    "public_feed_overlap": 1,
+    "signal_count": 2,
+    "signal_density": 2.0,
+    "source_count": 1,
     "sources": [
-      "bad-cidrs-v4",
-      "spamhaus-asndrop"
+      "bad-cidrs-v4"
     ]
   },
   "signal_counts": {
-    "drop_list_signals": 1,
+    "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 2,
@@ -32,11 +30,9 @@
   },
   "signals": {
     "drop_list": {
-      "count": 1,
-      "level": "high",
-      "sources": [
-        "spamhaus-asndrop"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "malware": {
       "count": 0,
@@ -52,8 +48,7 @@
       "count": 2,
       "level": "medium",
       "sources": [
-        "bad-cidrs-v4",
-        "spamhaus-asndrop"
+        "bad-cidrs-v4"
       ]
     },
     "tor": {
