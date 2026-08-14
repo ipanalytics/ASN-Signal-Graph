@@ -61,7 +61,7 @@
       ],
       "org": "IONOS SE",
       "public_feed_overlap": 2,
-      "signal_count": 291,
+      "signal_count": 290,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -80,7 +80,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 284,
+          "count": 283,
           "level": "high"
         },
         "vpn": {
@@ -242,7 +242,7 @@
       ],
       "org": "Orange S.A.",
       "public_feed_overlap": 1,
-      "signal_count": 19,
+      "signal_count": 20,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -261,7 +261,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 19,
+          "count": 20,
           "level": "medium"
         },
         "vpn": {
@@ -413,12 +413,12 @@
       "hosting_type": "infrastructure-observed",
       "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
-        "tor-low",
+        "tor-medium",
         "tor-overlap-infrastructure"
       ],
       "org": "Bouygues Telecom SA",
       "public_feed_overlap": 1,
-      "signal_count": 9,
+      "signal_count": 10,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -437,8 +437,8 @@
           "level": "none"
         },
         "tor": {
-          "count": 9,
-          "level": "low"
+          "count": 10,
+          "level": "medium"
         },
         "vpn": {
           "count": 0,
@@ -1807,6 +1807,50 @@
       "source_count": 1,
       "sources": [
         "spamhaus-asndrop"
+      ]
+    },
+    {
+      "asn": 208674,
+      "confidence": "low",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Association TekitUp",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
