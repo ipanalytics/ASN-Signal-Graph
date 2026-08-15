@@ -280,17 +280,19 @@
     },
     {
       "asn": 42831,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "GB",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "UKSERVERS-AS UK Dedicated Servers, Hosting and Co-Location",
-      "public_feed_overlap": 2,
-      "signal_count": 139,
+      "public_feed_overlap": 3,
+      "signal_count": 140,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -309,18 +311,19 @@
           "level": "low"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 138,
           "level": "medium"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     {
@@ -875,7 +878,7 @@
       ],
       "org": "British Telecommunications Limited",
       "public_feed_overlap": 1,
-      "signal_count": 14,
+      "signal_count": 13,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -894,7 +897,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 14,
+          "count": 13,
           "level": "medium"
         },
         "vpn": {
@@ -3051,6 +3054,50 @@
       ]
     },
     {
+      "asn": 33182,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "HostDime.com, Inc.",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 47638,
       "confidence": "low",
       "country": "GB",
@@ -3741,50 +3788,6 @@
       "source_count": 1,
       "sources": [
         "spamhaus-asndrop"
-      ]
-    },
-    {
-      "asn": 33182,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "HostDime.com, Inc.",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {

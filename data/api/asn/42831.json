@@ -5,21 +5,24 @@
   "ip_count_estimate": 138,
   "labels": [
     "vpn-medium",
-    "vpn-overlap-infrastructure"
+    "tor-low",
+    "multi-source-overlap",
+    "anonymity-overlap-infrastructure"
   ],
   "org": "UKSERVERS-AS UK Dedicated Servers, Hosting and Co-Location",
   "prefix_count": 0,
   "profile": {
-    "confidence": "low",
+    "confidence": "medium",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "vpn-overlap-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 139,
-    "signal_density": 139.0,
-    "source_count": 2,
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 140,
+    "signal_density": 140.0,
+    "source_count": 3,
     "sources": [
       "asn-vpn-multi-provider",
-      "bad-cidrs-v4"
+      "bad-cidrs-v4",
+      "tor-radar-network"
     ]
   },
   "signal_counts": {
@@ -27,7 +30,7 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 1,
-    "tor_signals": 0,
+    "tor_signals": 1,
     "vpn_signals": 138
   },
   "signals": {
@@ -51,13 +54,16 @@
       "level": "low",
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     "tor": {
-      "count": 0,
-      "level": "none",
-      "sources": []
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
     },
     "vpn": {
       "count": 138,
