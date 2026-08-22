@@ -61,7 +61,7 @@
       ],
       "org": "IONOS SE",
       "public_feed_overlap": 2,
-      "signal_count": 285,
+      "signal_count": 282,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -80,7 +80,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 278,
+          "count": 275,
           "level": "high"
         },
         "vpn": {
@@ -108,7 +108,7 @@
       ],
       "org": "Online SAS",
       "public_feed_overlap": 3,
-      "signal_count": 209,
+      "signal_count": 210,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -127,7 +127,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 101,
+          "count": 102,
           "level": "high"
         },
         "vpn": {
@@ -539,52 +539,6 @@
       ]
     },
     {
-      "asn": 41652,
-      "confidence": "low",
-      "country": "FR",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
-      "labels": [
-        "vpn-low",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
-      ],
-      "org": "SAS-SHPV-FRANCE",
-      "public_feed_overlap": 2,
-      "signal_count": 7,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 6,
-          "level": "low"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 202023,
       "confidence": "low",
       "country": "FR",
@@ -671,7 +625,7 @@
       ]
     },
     {
-      "asn": 20766,
+      "asn": 34177,
       "confidence": "low",
       "country": "FR",
       "hosting_type": "infrastructure-observed",
@@ -680,7 +634,7 @@
         "tor-low",
         "tor-overlap-infrastructure"
       ],
-      "org": "Association \"Gitoyen\"",
+      "org": "Celeste SAS",
       "public_feed_overlap": 1,
       "signal_count": 6,
       "signals": {
@@ -715,16 +669,16 @@
       ]
     },
     {
-      "asn": 34177,
+      "asn": 41652,
       "confidence": "low",
       "country": "FR",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
+      "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
+        "vpn-low",
+        "vpn-overlap-infrastructure"
       ],
-      "org": "Celeste SAS",
+      "org": "SAS-SHPV-FRANCE",
       "public_feed_overlap": 1,
       "signal_count": 6,
       "signals": {
@@ -745,7 +699,51 @@
           "level": "none"
         },
         "tor": {
+          "count": 0,
+          "level": "none"
+        },
+        "vpn": {
           "count": 6,
+          "level": "low"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "asn-vpn-multi-provider"
+      ]
+    },
+    {
+      "asn": 20766,
+      "confidence": "low",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Association \"Gitoyen\"",
+      "public_feed_overlap": 1,
+      "signal_count": 5,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 5,
           "level": "low"
         },
         "vpn": {
