@@ -235,19 +235,17 @@
     },
     {
       "asn": 42831,
-      "confidence": "medium",
+      "confidence": "low",
       "country": "GB",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "tor-low",
-        "multi-source-overlap",
-        "anonymity-overlap-infrastructure"
+        "vpn-overlap-infrastructure"
       ],
       "org": "UKSERVERS-AS UK Dedicated Servers, Hosting and Co-Location",
-      "public_feed_overlap": 3,
-      "signal_count": 140,
+      "public_feed_overlap": 2,
+      "signal_count": 139,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -266,19 +264,18 @@
           "level": "low"
         },
         "tor": {
-          "count": 1,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         },
         "vpn": {
           "count": 138,
           "level": "medium"
         }
       },
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4",
-        "tor-radar-network"
+        "bad-cidrs-v4"
       ]
     },
     {
@@ -789,7 +786,7 @@
       ],
       "org": "HostDime.com, Inc.",
       "public_feed_overlap": 1,
-      "signal_count": 16,
+      "signal_count": 15,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -808,7 +805,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 16,
+          "count": 15,
           "level": "medium"
         },
         "vpn": {
@@ -5723,6 +5720,50 @@
         "public-feed-listed-infrastructure"
       ],
       "org": "BIIL-RU-AS",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 0,
+          "level": "none"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    {
+      "asn": 216078,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "public-feed-listed-infrastructure",
+      "labels": [
+        "drop_list-high",
+        "public-feed-listed-infrastructure"
+      ],
+      "org": "KREMER-AS",
       "public_feed_overlap": 1,
       "signal_count": 1,
       "signals": {
