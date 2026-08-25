@@ -15,7 +15,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 849,
+      "signal_count": 842,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 647,
+          "count": 640,
           "level": "high"
         },
         "vpn": {
@@ -98,17 +98,17 @@
       "asn": 12876,
       "confidence": "medium",
       "country": "FR",
-      "hosting_type": "infrastructure-observed",
+      "hosting_type": "tor-heavy-hosting",
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "tor-medium",
+        "tor-high",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "Online SAS",
       "public_feed_overlap": 3,
-      "signal_count": 207,
+      "signal_count": 208,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -127,8 +127,8 @@
           "level": "high"
         },
         "tor": {
-          "count": 99,
-          "level": "medium"
+          "count": 100,
+          "level": "high"
         },
         "vpn": {
           "count": 101,
@@ -154,7 +154,7 @@
       ],
       "org": "Free SAS",
       "public_feed_overlap": 2,
-      "signal_count": 32,
+      "signal_count": 33,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -173,7 +173,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 28,
+          "count": 29,
           "level": "medium"
         },
         "vpn": {
@@ -242,7 +242,7 @@
       ],
       "org": "Orange S.A.",
       "public_feed_overlap": 1,
-      "signal_count": 20,
+      "signal_count": 21,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -261,7 +261,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 20,
+          "count": 21,
           "level": "medium"
         },
         "vpn": {
@@ -625,50 +625,6 @@
       ]
     },
     {
-      "asn": 34177,
-      "confidence": "low",
-      "country": "FR",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Celeste SAS",
-      "public_feed_overlap": 1,
-      "signal_count": 6,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 6,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 41652,
       "confidence": "low",
       "country": "FR",
@@ -929,6 +885,50 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 34177,
+      "confidence": "low",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Celeste SAS",
+      "public_feed_overlap": 1,
+      "signal_count": 3,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 3,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
