@@ -15,7 +15,7 @@
       ],
       "org": "HETZNER-AS",
       "public_feed_overlap": 3,
-      "signal_count": 460,
+      "signal_count": 459,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 374,
+          "count": 373,
           "level": "high"
         },
         "vpn": {
@@ -63,7 +63,7 @@
       ],
       "org": "NETCUP-AS netcup GmbH",
       "public_feed_overlap": 3,
-      "signal_count": 343,
+      "signal_count": 344,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -82,7 +82,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 316,
+          "count": 317,
           "level": "high"
         },
         "vpn": {
@@ -286,7 +286,7 @@
       ],
       "org": "Vodafone GmbH",
       "public_feed_overlap": 1,
-      "signal_count": 50,
+      "signal_count": 49,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -305,7 +305,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 50,
+          "count": 49,
           "level": "medium"
         },
         "vpn": {
@@ -503,6 +503,50 @@
       ]
     },
     {
+      "asn": 8881,
+      "confidence": "low",
+      "country": "DE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "1&1 Versatel GmbH",
+      "public_feed_overlap": 1,
+      "signal_count": 19,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 19,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 29066,
       "confidence": "low",
       "country": "DE",
@@ -545,50 +589,6 @@
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 8881,
-      "confidence": "low",
-      "country": "DE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "1&1 Versatel GmbH",
-      "public_feed_overlap": 1,
-      "signal_count": 18,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 18,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
         "tor-radar-network"
       ]
     },
@@ -770,51 +770,6 @@
       ]
     },
     {
-      "asn": 47583,
-      "confidence": "low",
-      "country": "DE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Hostinger International Limited",
-      "public_feed_overlap": 2,
-      "signal_count": 12,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 1,
-          "level": "low"
-        },
-        "tor": {
-          "count": 11,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 3356,
       "confidence": "low",
       "country": "DE",
@@ -903,6 +858,95 @@
       ]
     },
     {
+      "asn": 47583,
+      "confidence": "low",
+      "country": "DE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Hostinger International Limited",
+      "public_feed_overlap": 2,
+      "signal_count": 10,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 1,
+          "level": "low"
+        },
+        "tor": {
+          "count": 9,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 213250,
+      "confidence": "low",
+      "country": "DE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Dominic Scholz trading as ITP-Solutions GmbH & Co. KG",
+      "public_feed_overlap": 1,
+      "signal_count": 10,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 10,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 6724,
       "confidence": "low",
       "country": "DE",
@@ -957,50 +1001,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "RWTH Aachen University",
-      "public_feed_overlap": 1,
-      "signal_count": 9,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 9,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 213250,
-      "confidence": "low",
-      "country": "DE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Dominic Scholz trading as ITP-Solutions GmbH & Co. KG",
       "public_feed_overlap": 1,
       "signal_count": 9,
       "signals": {
@@ -3012,6 +3012,50 @@
       ]
     },
     {
+      "asn": 13101,
+      "confidence": "low",
+      "country": "DE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "TNG Stadtnetz GmbH",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 15891,
       "confidence": "low",
       "country": "DE",
@@ -4543,50 +4587,6 @@
       ]
     },
     {
-      "asn": 13101,
-      "confidence": "low",
-      "country": "DE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "TNG Stadtnetz GmbH",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 16075,
       "confidence": "low",
       "country": "DE",
@@ -5238,6 +5238,50 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 44656,
+      "confidence": "low",
+      "country": "DE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "2provide GmbH",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
