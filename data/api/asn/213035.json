@@ -5,25 +5,22 @@
   "ip_count_estimate": 3,
   "labels": [
     "vpn-low",
-    "tor-low",
     "drop_list-high",
-    "multi-source-overlap",
-    "mixed-signal-infrastructure"
+    "vpn-overlap-infrastructure"
   ],
   "org": "AS-SERVERION Serverion B.V.",
   "prefix_count": 0,
   "profile": {
-    "confidence": "medium",
+    "confidence": "low",
     "hosting_type": "public-feed-listed-asn",
-    "infrastructure_role": "mixed-signal-infrastructure",
-    "public_feed_overlap": 3,
-    "signal_count": 6,
-    "signal_density": 6.0,
-    "source_count": 3,
+    "infrastructure_role": "vpn-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 4,
+    "signal_density": 4.0,
+    "source_count": 2,
     "sources": [
       "asn-vpn-multi-provider",
-      "spamhaus-asndrop",
-      "tor-radar-network"
+      "spamhaus-asndrop"
     ]
   },
   "signal_counts": {
@@ -31,7 +28,7 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 2,
+    "tor_signals": 0,
     "vpn_signals": 3
   },
   "signals": {
@@ -58,11 +55,9 @@
       "sources": []
     },
     "tor": {
-      "count": 2,
-      "level": "low",
-      "sources": [
-        "tor-radar-network"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "vpn": {
       "count": 3,
