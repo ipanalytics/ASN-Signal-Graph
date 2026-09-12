@@ -1,5 +1,7 @@
 # ASN Signal Graph
 
+_Русская версия: [README.ru.md](README.ru.md)_
+
 <p align="center">
   <img src="./site/banner.png" alt="ASN Signal Graph is a public ASN infrastructure signal aggregation project for enrichment, research, and defensive analytics." width="100%">
 </p>
