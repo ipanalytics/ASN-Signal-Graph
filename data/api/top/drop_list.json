@@ -1944,16 +1944,18 @@
     {
       "asn": 36680,
       "confidence": "low",
-      "country": "GB",
+      "country": "SG",
       "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "public-feed-listed-infrastructure",
+      "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
+        "tor-low",
         "drop_list-high",
-        "public-feed-listed-infrastructure"
+        "multi-source-overlap",
+        "tor-overlap-infrastructure"
       ],
-      "org": "NETIFACELLC",
-      "public_feed_overlap": 2,
-      "signal_count": 3,
+      "org": "Netiface LLC",
+      "public_feed_overlap": 3,
+      "signal_count": 4,
       "signals": {
         "drop_list": {
           "count": 1,
@@ -1972,18 +1974,19 @@
           "level": "medium"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 0,
           "level": "none"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "bad-cidrs-v4",
-        "spamhaus-asndrop"
+        "spamhaus-asndrop",
+        "tor-radar-network"
       ]
     },
     {
