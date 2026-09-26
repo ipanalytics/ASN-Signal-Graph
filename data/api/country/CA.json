@@ -140,55 +140,6 @@
       ]
     },
     {
-      "asn": 63023,
-      "confidence": "medium",
-      "country": "CA",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "mixed-signal-infrastructure",
-      "labels": [
-        "vpn-low",
-        "tor-medium",
-        "drop_list-high",
-        "multi-source-overlap",
-        "mixed-signal-infrastructure"
-      ],
-      "org": "AS-GLOBALTELEHOST",
-      "public_feed_overlap": 3,
-      "signal_count": 78,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 31,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 46,
-          "level": "low"
-        }
-      },
-      "source_count": 3,
-      "sources": [
-        "asn-vpn-multi-provider",
-        "spamhaus-asndrop",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 394256,
       "confidence": "low",
       "country": "CA",
@@ -497,23 +448,22 @@
       ]
     },
     {
-      "asn": 62563,
+      "asn": 7040,
       "confidence": "low",
       "country": "CA",
-      "hosting_type": "public-feed-listed-asn",
+      "hosting_type": "infrastructure-observed",
       "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "drop_list-high",
         "vpn-overlap-infrastructure"
       ],
-      "org": "AS-GLOBALTELEHOST",
-      "public_feed_overlap": 2,
-      "signal_count": 10,
+      "org": "NETMINDERS",
+      "public_feed_overlap": 1,
+      "signal_count": 9,
       "signals": {
         "drop_list": {
-          "count": 1,
-          "level": "high"
+          "count": 0,
+          "level": "none"
         },
         "malware": {
           "count": 0,
@@ -536,14 +486,13 @@
           "level": "low"
         }
       },
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "asn-vpn-multi-provider",
-        "spamhaus-asndrop"
+        "asn-vpn-multi-provider"
       ]
     },
     {
-      "asn": 7040,
+      "asn": 62563,
       "confidence": "low",
       "country": "CA",
       "hosting_type": "infrastructure-observed",
@@ -552,7 +501,7 @@
         "vpn-low",
         "vpn-overlap-infrastructure"
       ],
-      "org": "NETMINDERS",
+      "org": "AS-GLOBALTELEHOST",
       "public_feed_overlap": 1,
       "signal_count": 9,
       "signals": {
@@ -940,51 +889,6 @@
       ]
     },
     {
-      "asn": 6327,
-      "confidence": "low",
-      "country": "CA",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Shaw Communications",
-      "public_feed_overlap": 2,
-      "signal_count": 3,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 1,
-          "level": "low"
-        },
-        "tor": {
-          "count": 2,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 398721,
       "confidence": "low",
       "country": "CA",
@@ -1069,6 +973,51 @@
       },
       "source_count": 1,
       "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 6327,
+      "confidence": "low",
+      "country": "CA",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Shaw Communications",
+      "public_feed_overlap": 2,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 1,
+          "level": "low"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
@@ -1898,50 +1847,6 @@
       ]
     },
     {
-      "asn": 20724,
-      "confidence": "low",
-      "country": "CA",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "public-feed-listed-infrastructure",
-      "labels": [
-        "drop_list-high",
-        "public-feed-listed-infrastructure"
-      ],
-      "org": "GLOBALTELEHOST",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 0,
-          "level": "none"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "spamhaus-asndrop"
-      ]
-    },
-    {
       "asn": 25668,
       "confidence": "low",
       "country": "CA",
@@ -2028,50 +1933,6 @@
       ]
     },
     {
-      "asn": 27463,
-      "confidence": "low",
-      "country": "CA",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "public-feed-listed-infrastructure",
-      "labels": [
-        "drop_list-high",
-        "public-feed-listed-infrastructure"
-      ],
-      "org": "AS-GLOBALTELEHOST",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 0,
-          "level": "none"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "spamhaus-asndrop"
-      ]
-    },
-    {
       "asn": 29974,
       "confidence": "low",
       "country": "CA",
@@ -2113,50 +1974,6 @@
       "source_count": 1,
       "sources": [
         "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 30088,
-      "confidence": "low",
-      "country": "CA",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "public-feed-listed-infrastructure",
-      "labels": [
-        "drop_list-high",
-        "public-feed-listed-infrastructure"
-      ],
-      "org": "GC-852-30088",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 0,
-          "level": "none"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "spamhaus-asndrop"
       ]
     },
     {
@@ -2331,50 +2148,6 @@
       "source_count": 1,
       "sources": [
         "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 61003,
-      "confidence": "low",
-      "country": "CA",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "public-feed-listed-infrastructure",
-      "labels": [
-        "drop_list-high",
-        "public-feed-listed-infrastructure"
-      ],
-      "org": "GLOBALTELEHOST",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 0,
-          "level": "none"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "spamhaus-asndrop"
       ]
     },
     {

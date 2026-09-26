@@ -475,7 +475,7 @@
       ],
       "org": "PONYNET",
       "public_feed_overlap": 3,
-      "signal_count": 258,
+      "signal_count": 259,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -494,7 +494,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 158,
+          "count": 159,
           "level": "high"
         },
         "vpn": {
@@ -513,16 +513,16 @@
       "asn": 20473,
       "confidence": "low",
       "country": "US",
-      "hosting_type": "tor-heavy-hosting",
+      "hosting_type": "infrastructure-observed",
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "tor-high",
+        "tor-medium",
         "anonymity-overlap-infrastructure"
       ],
       "org": "AS-VULTR",
       "public_feed_overlap": 2,
-      "signal_count": 240,
+      "signal_count": 239,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -541,8 +541,8 @@
           "level": "none"
         },
         "tor": {
-          "count": 100,
-          "level": "high"
+          "count": 99,
+          "level": "medium"
         },
         "vpn": {
           "count": 140,
@@ -704,7 +704,7 @@
       ],
       "org": "Oracle Corporation",
       "public_feed_overlap": 2,
-      "signal_count": 133,
+      "signal_count": 136,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -723,7 +723,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 117,
+          "count": 120,
           "level": "high"
         },
         "vpn": {
@@ -1104,7 +1104,7 @@
       ],
       "org": "AS40676 - Psychz Networks",
       "public_feed_overlap": 3,
-      "signal_count": 95,
+      "signal_count": 96,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1123,7 +1123,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 17,
+          "count": 18,
           "level": "medium"
         },
         "vpn": {
@@ -1135,6 +1135,52 @@
       "sources": [
         "asn-vpn-multi-provider",
         "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 63023,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-low",
+        "tor-medium",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "AS-GLOBALTELEHOST",
+      "public_feed_overlap": 2,
+      "signal_count": 77,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 31,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 46,
+          "level": "low"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "asn-vpn-multi-provider",
         "tor-radar-network"
       ]
     },
@@ -4374,6 +4420,50 @@
       ]
     },
     {
+      "asn": 7018,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "AT&T Enterprises, LLC",
+      "public_feed_overlap": 1,
+      "signal_count": 50,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 50,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 63018,
       "confidence": "low",
       "country": "US",
@@ -4416,50 +4506,6 @@
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 7018,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "AT&T Enterprises, LLC",
-      "public_feed_overlap": 1,
-      "signal_count": 49,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 49,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
         "tor-radar-network"
       ]
     },
@@ -4775,6 +4821,51 @@
       ]
     },
     {
+      "asn": 40021,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Contabo Inc.",
+      "public_feed_overlap": 2,
+      "signal_count": 32,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 18,
+          "level": "high"
+        },
+        "tor": {
+          "count": 14,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 16509,
       "confidence": "low",
       "country": "US",
@@ -4817,51 +4908,6 @@
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 40021,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Contabo Inc.",
-      "public_feed_overlap": 2,
-      "signal_count": 31,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 18,
-          "level": "high"
-        },
-        "tor": {
-          "count": 13,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
@@ -12631,6 +12677,50 @@
       ]
     },
     {
+      "asn": 400304,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Redoubt Networks",
+      "public_feed_overlap": 1,
+      "signal_count": 4,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 4,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 401617,
       "confidence": "low",
       "country": "US",
@@ -13982,50 +14072,6 @@
       ]
     },
     {
-      "asn": 46979,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Madison County Telephone Company",
-      "public_feed_overlap": 1,
-      "signal_count": 3,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 3,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 62296,
       "confidence": "low",
       "country": "US",
@@ -14283,50 +14329,6 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
-      ]
-    },
-    {
-      "asn": 400304,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Redoubt Networks",
-      "public_feed_overlap": 1,
-      "signal_count": 3,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 3,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {
@@ -16171,6 +16173,50 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Verizon Business",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 46979,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Madison County Telephone Company",
       "public_feed_overlap": 1,
       "signal_count": 2,
       "signals": {
@@ -25858,6 +25904,50 @@
         "tor-overlap-infrastructure"
       ],
       "org": "HYEHOST LTD",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 48925,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "VibeGAMES B.V.",
       "public_feed_overlap": 1,
       "signal_count": 1,
       "signals": {

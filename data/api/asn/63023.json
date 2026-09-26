@@ -1,33 +1,30 @@
 {
   "asn": 63023,
-  "country": "CA",
+  "country": "US",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 46,
   "labels": [
     "vpn-low",
     "tor-medium",
-    "drop_list-high",
-    "multi-source-overlap",
-    "mixed-signal-infrastructure"
+    "anonymity-overlap-infrastructure"
   ],
   "org": "AS-GLOBALTELEHOST",
   "prefix_count": 0,
   "profile": {
-    "confidence": "medium",
-    "hosting_type": "public-feed-listed-asn",
-    "infrastructure_role": "mixed-signal-infrastructure",
-    "public_feed_overlap": 3,
-    "signal_count": 78,
-    "signal_density": 78.0,
-    "source_count": 3,
+    "confidence": "low",
+    "hosting_type": "infrastructure-observed",
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 77,
+    "signal_density": 77.0,
+    "source_count": 2,
     "sources": [
       "asn-vpn-multi-provider",
-      "spamhaus-asndrop",
       "tor-radar-network"
     ]
   },
   "signal_counts": {
-    "drop_list_signals": 1,
+    "drop_list_signals": 0,
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
@@ -36,11 +33,9 @@
   },
   "signals": {
     "drop_list": {
-      "count": 1,
-      "level": "high",
-      "sources": [
-        "spamhaus-asndrop"
-      ]
+      "count": 0,
+      "level": "none",
+      "sources": []
     },
     "malware": {
       "count": 0,
