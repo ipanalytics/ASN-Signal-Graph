@@ -730,7 +730,7 @@
       ]
     },
     {
-      "asn": 2856,
+      "asn": 5089,
       "confidence": "low",
       "country": "GB",
       "hosting_type": "infrastructure-observed",
@@ -739,9 +739,9 @@
         "tor-medium",
         "tor-overlap-infrastructure"
       ],
-      "org": "British Telecommunications Limited",
-      "public_feed_overlap": 1,
-      "signal_count": 16,
+      "org": "Virgin Media Limited",
+      "public_feed_overlap": 2,
+      "signal_count": 14,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -756,11 +756,11 @@
           "level": "none"
         },
         "public_feed": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "tor": {
-          "count": 16,
+          "count": 13,
           "level": "medium"
         },
         "vpn": {
@@ -768,8 +768,9 @@
           "level": "none"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
@@ -819,7 +820,7 @@
       ]
     },
     {
-      "asn": 5089,
+      "asn": 2856,
       "confidence": "low",
       "country": "GB",
       "hosting_type": "infrastructure-observed",
@@ -828,9 +829,9 @@
         "tor-medium",
         "tor-overlap-infrastructure"
       ],
-      "org": "Virgin Media Limited",
-      "public_feed_overlap": 2,
-      "signal_count": 13,
+      "org": "British Telecommunications Limited",
+      "public_feed_overlap": 1,
+      "signal_count": 12,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -845,8 +846,8 @@
           "level": "none"
         },
         "public_feed": {
-          "count": 1,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         },
         "tor": {
           "count": 12,
@@ -857,9 +858,8 @@
           "level": "none"
         }
       },
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
@@ -1211,6 +1211,50 @@
       "source_count": 1,
       "sources": [
         "asn-vpn-multi-provider"
+      ]
+    },
+    {
+      "asn": 13285,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "TalkTalk Communications Limited",
+      "public_feed_overlap": 1,
+      "signal_count": 6,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 6,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
@@ -2260,50 +2304,6 @@
       ]
     },
     {
-      "asn": 6871,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "British Telecommunications Limited",
-      "public_feed_overlap": 1,
-      "signal_count": 3,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 3,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 21472,
       "confidence": "low",
       "country": "GB",
@@ -2742,6 +2742,50 @@
       ]
     },
     {
+      "asn": 6871,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "British Telecommunications Limited",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 13076,
       "confidence": "low",
       "country": "GB",
@@ -2782,50 +2826,6 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
-      ]
-    },
-    {
-      "asn": 13285,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "TalkTalk Communications Limited",
-      "public_feed_overlap": 1,
-      "signal_count": 2,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 2,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {
