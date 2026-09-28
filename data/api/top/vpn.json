@@ -797,7 +797,7 @@
       ],
       "org": "DIGITALOCEAN-ASN",
       "public_feed_overlap": 3,
-      "signal_count": 399,
+      "signal_count": 396,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -816,7 +816,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 86,
+          "count": 83,
           "level": "medium"
         },
         "vpn": {
@@ -892,7 +892,7 @@
       ],
       "org": "ONEPROVIDER-AS BrainStorm Network, Inc",
       "public_feed_overlap": 2,
-      "signal_count": 195,
+      "signal_count": 201,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -911,7 +911,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 20,
+          "count": 26,
           "level": "medium"
         },
         "vpn": {
@@ -1028,7 +1028,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 401,
+      "signal_count": 399,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1047,7 +1047,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 229,
+          "count": 227,
           "level": "high"
         },
         "vpn": {
@@ -1076,7 +1076,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 772,
+      "signal_count": 774,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1095,7 +1095,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 570,
+          "count": 572,
           "level": "high"
         },
         "vpn": {
@@ -1123,7 +1123,7 @@
       ],
       "org": "AS-VULTR",
       "public_feed_overlap": 2,
-      "signal_count": 247,
+      "signal_count": 246,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1142,7 +1142,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 107,
+          "count": 106,
           "level": "high"
         },
         "vpn": {
@@ -1623,7 +1623,7 @@
       ],
       "org": "Online SAS",
       "public_feed_overlap": 3,
-      "signal_count": 197,
+      "signal_count": 198,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1642,7 +1642,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 89,
+          "count": 90,
           "level": "medium"
         },
         "vpn": {
@@ -1764,7 +1764,7 @@
       ],
       "org": "PONYNET",
       "public_feed_overlap": 3,
-      "signal_count": 259,
+      "signal_count": 260,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1783,7 +1783,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 159,
+          "count": 160,
           "level": "high"
         },
         "vpn": {
@@ -1903,7 +1903,7 @@
       ],
       "org": "AKAMAI-LINODE-AP Akamai Connected Cloud",
       "public_feed_overlap": 2,
-      "signal_count": 182,
+      "signal_count": 181,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1922,7 +1922,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 99,
+          "count": 98,
           "level": "medium"
         },
         "vpn": {
@@ -2182,7 +2182,7 @@
       ],
       "org": "HETZNER-AS",
       "public_feed_overlap": 3,
-      "signal_count": 425,
+      "signal_count": 426,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -2201,7 +2201,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 339,
+          "count": 340,
           "level": "high"
         },
         "vpn": {
@@ -2953,7 +2953,7 @@
       ],
       "org": "AS-GLOBALTELEHOST",
       "public_feed_overlap": 2,
-      "signal_count": 76,
+      "signal_count": 74,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -2972,7 +2972,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 30,
+          "count": 28,
           "level": "medium"
         },
         "vpn": {
@@ -3721,14 +3721,15 @@
       "confidence": "low",
       "country": "US",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "GTT-BACKBONE GTT",
-      "public_feed_overlap": 1,
-      "signal_count": 27,
+      "public_feed_overlap": 2,
+      "signal_count": 28,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -3747,17 +3748,18 @@
           "level": "none"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 27,
           "level": "low"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "asn-vpn-multi-provider"
+        "asn-vpn-multi-provider",
+        "tor-radar-network"
       ]
     },
     {
@@ -3904,13 +3906,13 @@
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "tor-medium",
+        "tor-low",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "KIXS-AS-KR Korea Telecom",
       "public_feed_overlap": 3,
-      "signal_count": 54,
+      "signal_count": 53,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -3929,8 +3931,8 @@
           "level": "high"
         },
         "tor": {
-          "count": 10,
-          "level": "medium"
+          "count": 9,
+          "level": "low"
         },
         "vpn": {
           "count": 25,

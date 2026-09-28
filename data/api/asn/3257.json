@@ -5,20 +5,22 @@
   "ip_count_estimate": 27,
   "labels": [
     "vpn-low",
-    "vpn-overlap-infrastructure"
+    "tor-low",
+    "anonymity-overlap-infrastructure"
   ],
   "org": "GTT-BACKBONE GTT",
   "prefix_count": 0,
   "profile": {
     "confidence": "low",
     "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "vpn-overlap-infrastructure",
-    "public_feed_overlap": 1,
-    "signal_count": 27,
-    "signal_density": 27.0,
-    "source_count": 1,
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 2,
+    "signal_count": 28,
+    "signal_density": 28.0,
+    "source_count": 2,
     "sources": [
-      "asn-vpn-multi-provider"
+      "asn-vpn-multi-provider",
+      "tor-radar-network"
     ]
   },
   "signal_counts": {
@@ -26,7 +28,7 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 0,
+    "tor_signals": 1,
     "vpn_signals": 27
   },
   "signals": {
@@ -51,9 +53,11 @@
       "sources": []
     },
     "tor": {
-      "count": 0,
-      "level": "none",
-      "sources": []
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
     },
     "vpn": {
       "count": 27,

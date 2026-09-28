@@ -600,13 +600,13 @@
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "tor-medium",
+        "tor-low",
         "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "W1N",
       "public_feed_overlap": 3,
-      "signal_count": 21,
+      "signal_count": 20,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -625,8 +625,8 @@
           "level": "high"
         },
         "tor": {
-          "count": 10,
-          "level": "medium"
+          "count": 9,
+          "level": "low"
         },
         "vpn": {
           "count": 5,
@@ -952,6 +952,50 @@
       ]
     },
     {
+      "asn": 13285,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "TalkTalk Communications Limited",
+      "public_feed_overlap": 1,
+      "signal_count": 10,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 10,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 49683,
       "confidence": "low",
       "country": "GB",
@@ -1214,50 +1258,6 @@
       ]
     },
     {
-      "asn": 13285,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "TalkTalk Communications Limited",
-      "public_feed_overlap": 1,
-      "signal_count": 6,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 6,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 13037,
       "confidence": "low",
       "country": "GB",
@@ -1431,52 +1431,6 @@
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 215311,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "drop_list-high",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Regxa Company for Information Technology Ltd",
-      "public_feed_overlap": 2,
-      "signal_count": 5,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 4,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "spamhaus-asndrop",
         "tor-radar-network"
       ]
     },
@@ -2260,6 +2214,52 @@
       ]
     },
     {
+      "asn": 215311,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "drop_list-high",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Regxa Company for Information Technology Ltd",
+      "public_feed_overlap": 2,
+      "signal_count": 4,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 3,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "spamhaus-asndrop",
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 216405,
       "confidence": "low",
       "country": "GB",
@@ -2826,6 +2826,50 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 20712,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Andrews & Arnold Ltd",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
       ]
     },
     {
@@ -3622,50 +3666,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Jump Networks Ltd",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 20712,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Andrews & Arnold Ltd",
       "public_feed_overlap": 1,
       "signal_count": 1,
       "signals": {
