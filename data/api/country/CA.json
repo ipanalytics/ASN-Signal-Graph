@@ -47,18 +47,19 @@
     },
     {
       "asn": 136258,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "CA",
       "hosting_type": "infrastructure-observed",
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
         "tor-medium",
+        "multi-source-overlap",
         "anonymity-overlap-infrastructure"
       ],
       "org": "ONEPROVIDER-AS BrainStorm Network, Inc",
-      "public_feed_overlap": 2,
-      "signal_count": 201,
+      "public_feed_overlap": 3,
+      "signal_count": 202,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -73,8 +74,8 @@
           "level": "none"
         },
         "public_feed": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "tor": {
           "count": 26,
@@ -85,9 +86,10 @@
           "level": "medium"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
+        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
@@ -636,7 +638,7 @@
       ],
       "org": "Rogers Communications Canada Inc.",
       "public_feed_overlap": 1,
-      "signal_count": 4,
+      "signal_count": 5,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -655,7 +657,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 4,
+          "count": 5,
           "level": "low"
         },
         "vpn": {

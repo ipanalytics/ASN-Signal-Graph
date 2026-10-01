@@ -15,7 +15,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 787,
+      "signal_count": 796,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 585,
+          "count": 594,
           "level": "high"
         },
         "vpn": {
@@ -50,20 +50,18 @@
       ]
     },
     {
-      "asn": 12876,
-      "confidence": "medium",
+      "asn": 8560,
+      "confidence": "low",
       "country": "FR",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "hosting_type": "tor-heavy-hosting",
+      "infrastructure_role": "tor-overlap-infrastructure",
       "labels": [
-        "vpn-medium",
-        "tor-medium",
-        "multi-source-overlap",
-        "anonymity-overlap-infrastructure"
+        "tor-high",
+        "tor-overlap-infrastructure"
       ],
-      "org": "Online SAS",
-      "public_feed_overlap": 3,
-      "signal_count": 198,
+      "org": "IONOS SE",
+      "public_feed_overlap": 2,
+      "signal_count": 270,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -82,7 +80,54 @@
           "level": "high"
         },
         "tor": {
-          "count": 90,
+          "count": 263,
+          "level": "high"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 12876,
+      "confidence": "medium",
+      "country": "FR",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-medium",
+        "tor-medium",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "Online SAS",
+      "public_feed_overlap": 3,
+      "signal_count": 197,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 7,
+          "level": "high"
+        },
+        "tor": {
+          "count": 89,
           "level": "medium"
         },
         "vpn": {
@@ -418,7 +463,7 @@
       ],
       "org": "Bouygues Telecom SA",
       "public_feed_overlap": 1,
-      "signal_count": 9,
+      "signal_count": 8,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -437,7 +482,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 9,
+          "count": 8,
           "level": "low"
         },
         "vpn": {
