@@ -652,7 +652,7 @@
       ],
       "org": "Virgin Media Limited",
       "public_feed_overlap": 2,
-      "signal_count": 19,
+      "signal_count": 20,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -671,7 +671,7 @@
           "level": "low"
         },
         "tor": {
-          "count": 18,
+          "count": 19,
           "level": "medium"
         },
         "vpn": {
@@ -785,7 +785,7 @@
       ],
       "org": "British Telecommunications Limited",
       "public_feed_overlap": 1,
-      "signal_count": 12,
+      "signal_count": 11,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -804,7 +804,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 12,
+          "count": 11,
           "level": "medium"
         },
         "vpn": {
@@ -1170,6 +1170,50 @@
       ]
     },
     {
+      "asn": 5378,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Vodafone Limited",
+      "public_feed_overlap": 1,
+      "signal_count": 7,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 7,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 39326,
       "confidence": "low",
       "country": "GB",
@@ -1211,50 +1255,6 @@
       "source_count": 1,
       "sources": [
         "asn-vpn-multi-provider"
-      ]
-    },
-    {
-      "asn": 5378,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Vodafone Limited",
-      "public_feed_overlap": 1,
-      "signal_count": 6,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 6,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {
@@ -1647,6 +1647,52 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
+      ]
+    },
+    {
+      "asn": 59895,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-low",
+        "tor-low",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "BINARYRACKS-AS",
+      "public_feed_overlap": 2,
+      "signal_count": 4,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 3,
+          "level": "low"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "asn-vpn-multi-provider",
+        "tor-radar-network"
       ]
     },
     {
@@ -2393,21 +2439,22 @@
       ]
     },
     {
-      "asn": 47508,
+      "asn": 36680,
       "confidence": "low",
       "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "observed-infrastructure",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "public-feed-listed-infrastructure",
       "labels": [
-        "observed-infrastructure"
+        "drop_list-high",
+        "public-feed-listed-infrastructure"
       ],
-      "org": "w1n ltd",
-      "public_feed_overlap": 1,
+      "org": "NETIFACELLC",
+      "public_feed_overlap": 2,
       "signal_count": 3,
       "signals": {
         "drop_list": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "high"
         },
         "malware": {
           "count": 0,
@@ -2418,7 +2465,7 @@
           "level": "none"
         },
         "public_feed": {
-          "count": 3,
+          "count": 2,
           "level": "medium"
         },
         "tor": {
@@ -2430,13 +2477,14 @@
           "level": "none"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "spamhaus-asndrop"
       ]
     },
     {
-      "asn": 49372,
+      "asn": 47508,
       "confidence": "low",
       "country": "GB",
       "hosting_type": "infrastructure-observed",
@@ -2562,50 +2610,6 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
-      ]
-    },
-    {
-      "asn": 59895,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
-      "labels": [
-        "vpn-low",
-        "vpn-overlap-infrastructure"
-      ],
-      "org": "BINARYRACKS-AS",
-      "public_feed_overlap": 1,
-      "signal_count": 3,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 0,
-          "level": "none"
-        },
-        "vpn": {
-          "count": 3,
-          "level": "low"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "asn-vpn-multi-provider"
       ]
     },
     {
