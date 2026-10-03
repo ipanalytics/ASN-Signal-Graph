@@ -5,21 +5,24 @@
   "ip_count_estimate": 624,
   "labels": [
     "vpn-high",
-    "vpn-overlap-infrastructure"
+    "tor-low",
+    "multi-source-overlap",
+    "anonymity-overlap-infrastructure"
   ],
   "org": "GLOBALLAYER",
   "prefix_count": 0,
   "profile": {
-    "confidence": "low",
+    "confidence": "medium",
     "hosting_type": "vpn-heavy-hosting",
-    "infrastructure_role": "vpn-overlap-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 626,
-    "signal_density": 626.0,
-    "source_count": 2,
+    "infrastructure_role": "anonymity-overlap-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 627,
+    "signal_density": 627.0,
+    "source_count": 3,
     "sources": [
       "asn-vpn-multi-provider",
-      "bad-cidrs-v4"
+      "bad-cidrs-v4",
+      "tor-radar-network"
     ]
   },
   "signal_counts": {
@@ -27,7 +30,7 @@
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 2,
-    "tor_signals": 0,
+    "tor_signals": 1,
     "vpn_signals": 624
   },
   "signals": {
@@ -51,13 +54,16 @@
       "level": "medium",
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     "tor": {
-      "count": 0,
-      "level": "none",
-      "sources": []
+      "count": 1,
+      "level": "low",
+      "sources": [
+        "tor-radar-network"
+      ]
     },
     "vpn": {
       "count": 624,
