@@ -1,41 +1,46 @@
 {
   "asn": 14956,
-  "country": "US",
+  "country": "IR",
   "disclaimer": "This record describes public infrastructure signals observed in public sources. It does not classify the provider as malicious.",
   "ip_count_estimate": 3,
   "labels": [
     "vpn-low",
     "tor-low",
-    "anonymity-overlap-infrastructure"
+    "drop_list-high",
+    "multi-source-overlap",
+    "mixed-signal-infrastructure"
   ],
   "org": "ROUTERHOSTING",
   "prefix_count": 0,
   "profile": {
-    "confidence": "low",
-    "hosting_type": "infrastructure-observed",
-    "infrastructure_role": "anonymity-overlap-infrastructure",
-    "public_feed_overlap": 2,
-    "signal_count": 10,
-    "signal_density": 10.0,
-    "source_count": 2,
+    "confidence": "medium",
+    "hosting_type": "public-feed-listed-asn",
+    "infrastructure_role": "mixed-signal-infrastructure",
+    "public_feed_overlap": 3,
+    "signal_count": 12,
+    "signal_density": 12.0,
+    "source_count": 3,
     "sources": [
       "asn-vpn-multi-provider",
+      "spamhaus-asndrop",
       "tor-radar-network"
     ]
   },
   "signal_counts": {
-    "drop_list_signals": 0,
+    "drop_list_signals": 1,
     "malware_signals": 0,
     "phishing_signals": 0,
     "public_feed_signals": 0,
-    "tor_signals": 7,
+    "tor_signals": 8,
     "vpn_signals": 3
   },
   "signals": {
     "drop_list": {
-      "count": 0,
-      "level": "none",
-      "sources": []
+      "count": 1,
+      "level": "high",
+      "sources": [
+        "spamhaus-asndrop"
+      ]
     },
     "malware": {
       "count": 0,
@@ -53,7 +58,7 @@
       "sources": []
     },
     "tor": {
-      "count": 7,
+      "count": 8,
       "level": "low",
       "sources": [
         "tor-radar-network"
