@@ -277,18 +277,19 @@
       ]
     },
     {
-      "asn": 47987,
+      "asn": 48031,
       "confidence": "low",
       "country": "UA",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "anonymity-overlap-infrastructure"
       ],
-      "org": "DELTAHOST-KYIV",
-      "public_feed_overlap": 1,
-      "signal_count": 4,
+      "org": "XSERVERCLOUD",
+      "public_feed_overlap": 2,
+      "signal_count": 5,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -307,21 +308,22 @@
           "level": "none"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 4,
           "level": "low"
         }
       },
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "asn-vpn-multi-provider"
+        "asn-vpn-multi-provider",
+        "tor-radar-network"
       ]
     },
     {
-      "asn": 48031,
+      "asn": 47987,
       "confidence": "low",
       "country": "UA",
       "hosting_type": "infrastructure-observed",
@@ -330,7 +332,7 @@
         "vpn-low",
         "vpn-overlap-infrastructure"
       ],
-      "org": "XSERVERCLOUD",
+      "org": "DELTAHOST-KYIV",
       "public_feed_overlap": 1,
       "signal_count": 4,
       "signals": {
