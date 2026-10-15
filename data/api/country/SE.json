@@ -184,51 +184,6 @@
       ]
     },
     {
-      "asn": 214503,
-      "confidence": "low",
-      "country": "SE",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "QuxLabs AB",
-      "public_feed_overlap": 2,
-      "signal_count": 38,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 1,
-          "level": "low"
-        },
-        "tor": {
-          "count": 37,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 8473,
       "confidence": "medium",
       "country": "SE",
@@ -242,7 +197,7 @@
       ],
       "org": "BAHNHOF",
       "public_feed_overlap": 3,
-      "signal_count": 21,
+      "signal_count": 20,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -261,7 +216,7 @@
           "level": "low"
         },
         "tor": {
-          "count": 11,
+          "count": 10,
           "level": "medium"
         },
         "vpn": {
@@ -937,6 +892,51 @@
       },
       "source_count": 1,
       "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 214503,
+      "confidence": "low",
+      "country": "SE",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "QuxLabs AB",
+      "public_feed_overlap": 2,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 1,
+          "level": "low"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
         "tor-radar-network"
       ]
     },
