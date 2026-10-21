@@ -6,15 +6,14 @@
       "confidence": "low",
       "country": "AU",
       "hosting_type": "vpn-heavy-hosting",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
         "vpn-high",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
+        "vpn-overlap-infrastructure"
       ],
       "org": "GSLNETWORKS-AS-AP GSL Networks Pty LTD",
-      "public_feed_overlap": 2,
-      "signal_count": 1099,
+      "public_feed_overlap": 1,
+      "signal_count": 1098,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -33,18 +32,17 @@
           "level": "none"
         },
         "tor": {
-          "count": 1,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         },
         "vpn": {
           "count": 1098,
           "level": "high"
         }
       },
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "asn-vpn-multi-provider",
-        "tor-radar-network"
+        "asn-vpn-multi-provider"
       ]
     },
     {
@@ -191,7 +189,7 @@
       ],
       "org": "SUPERLOOP (AUSTRALIA) PTY LTD",
       "public_feed_overlap": 1,
-      "signal_count": 14,
+      "signal_count": 12,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -210,7 +208,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 14,
+          "count": 12,
           "level": "medium"
         },
         "vpn": {
@@ -235,7 +233,7 @@
       ],
       "org": "Telstra Limited",
       "public_feed_overlap": 2,
-      "signal_count": 11,
+      "signal_count": 10,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -254,7 +252,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 3,
+          "count": 2,
           "level": "low"
         },
         "vpn": {
@@ -525,50 +523,6 @@
       "source_count": 1,
       "sources": [
         "bad-cidrs-v4"
-      ]
-    },
-    {
-      "asn": 133159,
-      "confidence": "low",
-      "country": "AU",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Mammoth Media Pty Ltd",
-      "public_feed_overlap": 1,
-      "signal_count": 4,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 4,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {
@@ -1056,6 +1010,50 @@
         "tor-overlap-infrastructure"
       ],
       "org": "TPG Internet Pty Ltd",
+      "public_feed_overlap": 1,
+      "signal_count": 3,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 3,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 133159,
+      "confidence": "low",
+      "country": "AU",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Mammoth Media Pty Ltd",
       "public_feed_overlap": 1,
       "signal_count": 3,
       "signals": {
