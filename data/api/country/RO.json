@@ -15,7 +15,7 @@
       ],
       "org": "M247",
       "public_feed_overlap": 3,
-      "signal_count": 4904,
+      "signal_count": 4906,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -34,7 +34,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 34,
+          "count": 36,
           "level": "medium"
         },
         "vpn": {
@@ -142,54 +142,6 @@
       ]
     },
     {
-      "asn": 47890,
-      "confidence": "medium",
-      "country": "RO",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-medium",
-        "drop_list-high",
-        "multi-source-overlap",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "UNMANAGED LTD",
-      "public_feed_overlap": 3,
-      "signal_count": 21,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 2,
-          "level": "medium"
-        },
-        "tor": {
-          "count": 18,
-          "level": "medium"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 3,
-      "sources": [
-        "bad-cidrs-v4",
-        "spamhaus-asndrop",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 6718,
       "confidence": "low",
       "country": "RO",
@@ -247,7 +199,7 @@
       ],
       "org": "RCS & RDS SA",
       "public_feed_overlap": 2,
-      "signal_count": 11,
+      "signal_count": 13,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -266,7 +218,7 @@
           "level": "low"
         },
         "tor": {
-          "count": 10,
+          "count": 12,
           "level": "medium"
         },
         "vpn": {
@@ -277,6 +229,54 @@
       "source_count": 2,
       "sources": [
         "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 47890,
+      "confidence": "medium",
+      "country": "RO",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "drop_list-high",
+        "multi-source-overlap",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "UNMANAGED LTD",
+      "public_feed_overlap": 3,
+      "signal_count": 5,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 2,
+          "level": "medium"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 3,
+      "sources": [
+        "bad-cidrs-v4",
+        "spamhaus-asndrop",
         "tor-radar-network"
       ]
     },
