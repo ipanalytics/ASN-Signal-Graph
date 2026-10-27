@@ -329,7 +329,7 @@
       ],
       "org": "DIGITALOCEAN-ASN",
       "public_feed_overlap": 3,
-      "signal_count": 389,
+      "signal_count": 388,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -348,7 +348,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 76,
+          "count": 75,
           "level": "medium"
         },
         "vpn": {
@@ -425,7 +425,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 271,
+      "signal_count": 270,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -444,7 +444,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 99,
+          "count": 98,
           "level": "medium"
         },
         "vpn": {
@@ -472,7 +472,7 @@
       ],
       "org": "AS-VULTR",
       "public_feed_overlap": 2,
-      "signal_count": 235,
+      "signal_count": 236,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -491,7 +491,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 95,
+          "count": 96,
           "level": "medium"
         },
         "vpn": {
@@ -4472,7 +4472,7 @@
       ],
       "org": "AT&T Enterprises, LLC",
       "public_feed_overlap": 1,
-      "signal_count": 54,
+      "signal_count": 53,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -4491,7 +4491,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 54,
+          "count": 53,
           "level": "medium"
         },
         "vpn": {
@@ -4651,7 +4651,7 @@
       ],
       "org": "HVC-AS",
       "public_feed_overlap": 2,
-      "signal_count": 44,
+      "signal_count": 45,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -4670,7 +4670,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 31,
+          "count": 32,
           "level": "medium"
         },
         "vpn": {
@@ -5134,63 +5134,20 @@
       ]
     },
     {
-      "asn": 40021,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Contabo Inc.",
-      "public_feed_overlap": 2,
-      "signal_count": 25,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 18,
-          "level": "high"
-        },
-        "tor": {
-          "count": 7,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "bad-cidrs-v4",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 30058,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "US",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "FDCSERVERS",
-      "public_feed_overlap": 2,
-      "signal_count": 24,
+      "public_feed_overlap": 3,
+      "signal_count": 25,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -5209,18 +5166,110 @@
           "level": "medium"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 22,
           "level": "low"
         }
       },
+      "source_count": 3,
+      "sources": [
+        "asn-vpn-multi-provider",
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 40021,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Contabo Inc.",
+      "public_feed_overlap": 2,
+      "signal_count": 24,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 18,
+          "level": "high"
+        },
+        "tor": {
+          "count": 6,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "bad-cidrs-v4",
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 45102,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "labels": [
+        "vpn-low",
+        "tor-low",
+        "anonymity-overlap-infrastructure"
+      ],
+      "org": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd.",
+      "public_feed_overlap": 2,
+      "signal_count": 18,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 9,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 9,
+          "level": "low"
+        }
+      },
       "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "tor-radar-network"
       ]
     },
     {
@@ -7816,52 +7865,6 @@
       ]
     },
     {
-      "asn": 45102,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
-      "labels": [
-        "vpn-low",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
-      ],
-      "org": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd.",
-      "public_feed_overlap": 2,
-      "signal_count": 15,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 6,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 9,
-          "level": "low"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "asn-vpn-multi-provider",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 61138,
       "confidence": "low",
       "country": "US",
@@ -8622,6 +8625,50 @@
       ]
     },
     {
+      "asn": 20115,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-medium",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Charter Communications LLC",
+      "public_feed_overlap": 1,
+      "signal_count": 10,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 10,
+          "level": "medium"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 50979,
       "confidence": "low",
       "country": "US",
@@ -8721,50 +8768,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "Cincinnati Bell Telephone Company LLC",
-      "public_feed_overlap": 1,
-      "signal_count": 9,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 9,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 20115,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Charter Communications LLC",
       "public_feed_overlap": 1,
       "signal_count": 9,
       "signals": {
@@ -16718,6 +16721,50 @@
       ]
     },
     {
+      "asn": 396362,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Leaseweb USA, Inc.",
+      "public_feed_overlap": 1,
+      "signal_count": 2,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 2,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 397613,
       "confidence": "low",
       "country": "US",
@@ -24052,6 +24099,50 @@
       ]
     },
     {
+      "asn": 26801,
+      "confidence": "low",
+      "country": "US",
+      "hosting_type": "infrastructure-observed",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Zito Media, L.P.",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 0,
+          "level": "none"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 1,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
       "asn": 26833,
       "confidence": "low",
       "country": "US",
@@ -25181,50 +25272,6 @@
       "source_count": 1,
       "sources": [
         "spamhaus-asndrop"
-      ]
-    },
-    {
-      "asn": 46109,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Ardent Wireless, LLC",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
       ]
     },
     {
@@ -28203,50 +28250,6 @@
         "tor-overlap-infrastructure"
       ],
       "org": "NYC Mesh Inc.",
-      "public_feed_overlap": 1,
-      "signal_count": 1,
-      "signals": {
-        "drop_list": {
-          "count": 0,
-          "level": "none"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 1,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 1,
-      "sources": [
-        "tor-radar-network"
-      ]
-    },
-    {
-      "asn": 396362,
-      "confidence": "low",
-      "country": "US",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Leaseweb USA, Inc.",
       "public_feed_overlap": 1,
       "signal_count": 1,
       "signals": {
