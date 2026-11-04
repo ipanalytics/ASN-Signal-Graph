@@ -62,7 +62,7 @@
       ],
       "org": "M247",
       "public_feed_overlap": 3,
-      "signal_count": 4908,
+      "signal_count": 4907,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -81,7 +81,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 38,
+          "count": 37,
           "level": "medium"
         },
         "vpn": {
@@ -564,7 +564,7 @@
       ],
       "org": "ZEN-ECN",
       "public_feed_overlap": 3,
-      "signal_count": 301,
+      "signal_count": 302,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -583,7 +583,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 2,
+          "count": 3,
           "level": "low"
         },
         "vpn": {
@@ -1029,7 +1029,7 @@
       ],
       "org": "AS-COLOCROSSING",
       "public_feed_overlap": 3,
-      "signal_count": 297,
+      "signal_count": 299,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1048,7 +1048,7 @@
           "level": "medium"
         },
         "tor": {
-          "count": 125,
+          "count": 127,
           "level": "high"
         },
         "vpn": {
@@ -1077,7 +1077,7 @@
       ],
       "org": "OVH",
       "public_feed_overlap": 3,
-      "signal_count": 835,
+      "signal_count": 837,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1096,7 +1096,7 @@
           "level": "high"
         },
         "tor": {
-          "count": 633,
+          "count": 635,
           "level": "high"
         },
         "vpn": {
@@ -1124,7 +1124,7 @@
       ],
       "org": "AS-VULTR",
       "public_feed_overlap": 2,
-      "signal_count": 240,
+      "signal_count": 242,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1143,7 +1143,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 100,
+          "count": 102,
           "level": "high"
         },
         "vpn": {
@@ -1895,16 +1895,16 @@
       "asn": 63949,
       "confidence": "low",
       "country": "US",
-      "hosting_type": "infrastructure-observed",
+      "hosting_type": "tor-heavy-hosting",
       "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-medium",
-        "tor-medium",
+        "tor-high",
         "anonymity-overlap-infrastructure"
       ],
       "org": "AKAMAI-LINODE-AP Akamai Connected Cloud",
       "public_feed_overlap": 2,
-      "signal_count": 181,
+      "signal_count": 183,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -1923,8 +1923,8 @@
           "level": "none"
         },
         "tor": {
-          "count": 98,
-          "level": "medium"
+          "count": 100,
+          "level": "high"
         },
         "vpn": {
           "count": 83,
@@ -3181,7 +3181,7 @@
       ],
       "org": "EDIS-AS-EU",
       "public_feed_overlap": 2,
-      "signal_count": 44,
+      "signal_count": 45,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -3200,7 +3200,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 2,
+          "count": 3,
           "level": "low"
         },
         "vpn": {
@@ -3490,17 +3490,19 @@
     },
     {
       "asn": 58325,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "GB",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "BANDWIDTH-ASIA",
-      "public_feed_overlap": 2,
-      "signal_count": 32,
+      "public_feed_overlap": 3,
+      "signal_count": 33,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -3519,18 +3521,19 @@
           "level": "low"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 31,
           "level": "low"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     {
@@ -3722,15 +3725,14 @@
       "confidence": "low",
       "country": "US",
       "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
         "vpn-low",
-        "tor-low",
-        "anonymity-overlap-infrastructure"
+        "vpn-overlap-infrastructure"
       ],
       "org": "GTT-BACKBONE GTT",
-      "public_feed_overlap": 2,
-      "signal_count": 28,
+      "public_feed_overlap": 1,
+      "signal_count": 27,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -3749,18 +3751,17 @@
           "level": "none"
         },
         "tor": {
-          "count": 1,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         },
         "vpn": {
           "count": 27,
           "level": "low"
         }
       },
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "asn-vpn-multi-provider",
-        "tor-radar-network"
+        "asn-vpn-multi-provider"
       ]
     },
     {
