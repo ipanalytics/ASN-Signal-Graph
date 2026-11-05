@@ -47,22 +47,24 @@
     },
     {
       "asn": 133398,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "HK",
-      "hosting_type": "infrastructure-observed",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "mixed-signal-infrastructure",
       "labels": [
         "vpn-low",
         "tor-low",
-        "anonymity-overlap-infrastructure"
+        "drop_list-high",
+        "multi-source-overlap",
+        "mixed-signal-infrastructure"
       ],
       "org": "TELE-AS Tele Asia Limited",
-      "public_feed_overlap": 2,
-      "signal_count": 17,
+      "public_feed_overlap": 3,
+      "signal_count": 18,
       "signals": {
         "drop_list": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "high"
         },
         "malware": {
           "count": 0,
@@ -85,9 +87,10 @@
           "level": "low"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
+        "spamhaus-asndrop",
         "tor-radar-network"
       ]
     },
@@ -1492,6 +1495,50 @@
       "source_count": 1,
       "sources": [
         "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 135392,
+      "confidence": "low",
+      "country": "HK",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "public-feed-listed-infrastructure",
+      "labels": [
+        "drop_list-high",
+        "public-feed-listed-infrastructure"
+      ],
+      "org": "MILLENIALHOSTLIMITED-AS-GB",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 0,
+          "level": "none"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "spamhaus-asndrop"
       ]
     },
     {

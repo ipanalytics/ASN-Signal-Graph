@@ -99,17 +99,19 @@
     },
     {
       "asn": 60068,
-      "confidence": "low",
+      "confidence": "medium",
       "country": "GB",
       "hosting_type": "vpn-heavy-hosting",
-      "infrastructure_role": "vpn-overlap-infrastructure",
+      "infrastructure_role": "anonymity-overlap-infrastructure",
       "labels": [
         "vpn-high",
-        "vpn-overlap-infrastructure"
+        "tor-low",
+        "multi-source-overlap",
+        "anonymity-overlap-infrastructure"
       ],
       "org": "CDN77 _",
-      "public_feed_overlap": 2,
-      "signal_count": 1225,
+      "public_feed_overlap": 3,
+      "signal_count": 1226,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -128,18 +130,19 @@
           "level": "high"
         },
         "tor": {
-          "count": 0,
-          "level": "none"
+          "count": 1,
+          "level": "low"
         },
         "vpn": {
           "count": 1217,
           "level": "high"
         }
       },
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4"
+        "bad-cidrs-v4",
+        "tor-radar-network"
       ]
     },
     {
@@ -1079,52 +1082,6 @@
       ]
     },
     {
-      "asn": 215311,
-      "confidence": "low",
-      "country": "GB",
-      "hosting_type": "public-feed-listed-asn",
-      "infrastructure_role": "tor-overlap-infrastructure",
-      "labels": [
-        "tor-low",
-        "drop_list-high",
-        "tor-overlap-infrastructure"
-      ],
-      "org": "Regxa Company for Information Technology Ltd",
-      "public_feed_overlap": 2,
-      "signal_count": 7,
-      "signals": {
-        "drop_list": {
-          "count": 1,
-          "level": "high"
-        },
-        "malware": {
-          "count": 0,
-          "level": "none"
-        },
-        "phishing": {
-          "count": 0,
-          "level": "none"
-        },
-        "public_feed": {
-          "count": 0,
-          "level": "none"
-        },
-        "tor": {
-          "count": 6,
-          "level": "low"
-        },
-        "vpn": {
-          "count": 0,
-          "level": "none"
-        }
-      },
-      "source_count": 2,
-      "sources": [
-        "spamhaus-asndrop",
-        "tor-radar-network"
-      ]
-    },
-    {
       "asn": 5378,
       "confidence": "low",
       "country": "GB",
@@ -1165,6 +1122,52 @@
       },
       "source_count": 1,
       "sources": [
+        "tor-radar-network"
+      ]
+    },
+    {
+      "asn": 215311,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "tor-overlap-infrastructure",
+      "labels": [
+        "tor-low",
+        "drop_list-high",
+        "tor-overlap-infrastructure"
+      ],
+      "org": "Regxa Company for Information Technology Ltd",
+      "public_feed_overlap": 2,
+      "signal_count": 6,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 5,
+          "level": "low"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 2,
+      "sources": [
+        "spamhaus-asndrop",
         "tor-radar-network"
       ]
     },
