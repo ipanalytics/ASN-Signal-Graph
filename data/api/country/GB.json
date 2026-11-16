@@ -99,19 +99,17 @@
     },
     {
       "asn": 60068,
-      "confidence": "medium",
+      "confidence": "low",
       "country": "GB",
       "hosting_type": "vpn-heavy-hosting",
-      "infrastructure_role": "anonymity-overlap-infrastructure",
+      "infrastructure_role": "vpn-overlap-infrastructure",
       "labels": [
         "vpn-high",
-        "tor-low",
-        "multi-source-overlap",
-        "anonymity-overlap-infrastructure"
+        "vpn-overlap-infrastructure"
       ],
       "org": "CDN77 _",
-      "public_feed_overlap": 3,
-      "signal_count": 1226,
+      "public_feed_overlap": 2,
+      "signal_count": 1225,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -130,19 +128,18 @@
           "level": "high"
         },
         "tor": {
-          "count": 1,
-          "level": "low"
+          "count": 0,
+          "level": "none"
         },
         "vpn": {
           "count": 1217,
           "level": "high"
         }
       },
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         "asn-vpn-multi-provider",
-        "bad-cidrs-v4",
-        "tor-radar-network"
+        "bad-cidrs-v4"
       ]
     },
     {
@@ -342,7 +339,7 @@
       ],
       "org": "IOMART-AS",
       "public_feed_overlap": 2,
-      "signal_count": 75,
+      "signal_count": 83,
       "signals": {
         "drop_list": {
           "count": 0,
@@ -361,7 +358,7 @@
           "level": "none"
         },
         "tor": {
-          "count": 27,
+          "count": 35,
           "level": "medium"
         },
         "vpn": {
@@ -4275,6 +4272,50 @@
         "public-feed-listed-infrastructure"
       ],
       "org": "BERCHSOLUTIONS-AS",
+      "public_feed_overlap": 1,
+      "signal_count": 1,
+      "signals": {
+        "drop_list": {
+          "count": 1,
+          "level": "high"
+        },
+        "malware": {
+          "count": 0,
+          "level": "none"
+        },
+        "phishing": {
+          "count": 0,
+          "level": "none"
+        },
+        "public_feed": {
+          "count": 0,
+          "level": "none"
+        },
+        "tor": {
+          "count": 0,
+          "level": "none"
+        },
+        "vpn": {
+          "count": 0,
+          "level": "none"
+        }
+      },
+      "source_count": 1,
+      "sources": [
+        "spamhaus-asndrop"
+      ]
+    },
+    {
+      "asn": 198189,
+      "confidence": "low",
+      "country": "GB",
+      "hosting_type": "public-feed-listed-asn",
+      "infrastructure_role": "public-feed-listed-infrastructure",
+      "labels": [
+        "drop_list-high",
+        "public-feed-listed-infrastructure"
+      ],
+      "org": "STEALTHVM",
       "public_feed_overlap": 1,
       "signal_count": 1,
       "signals": {
